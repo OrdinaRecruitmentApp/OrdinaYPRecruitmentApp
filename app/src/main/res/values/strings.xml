@@ -13,4 +13,6 @@
     <string name="title_activity_afdelingen">AfdelingenActivity</string>
     <string name="title_activity_klanten">KlantenActivity</string>
     <string name="title_activity_projecten">ProjectenActivity</string>
+    <string name="title_tab_afdelingen_technisch">Technisch</string>
+    <string name="title_tab_afdelingen_niet_technisch">Niet Technisch</string>
 </resources>
