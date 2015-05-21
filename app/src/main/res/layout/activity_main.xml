@@ -10,43 +10,48 @@
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
         android:text="@string/young_professionals"
         android:layout_centerHorizontal="true"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF" android:textSize="30dp" android:fontFamily="Arial"
+        android:textStyle="bold"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="waarom Ordina?"
+        android:text="@string/waarom_ordina_kiezen"
         android:id="@+id/button_waarom_ordina"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="80dp"
         android:onClick="startWaaromOrdinaActivity"
         android:background="#565A5C"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        android:minWidth="280dp" android:fontFamily="Arial"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Wat Doet Ordina?"
+        android:text="@string/wat_doet_ordina"
         android:id="@+id/button_wat_doet_ordina"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:onClick="startWatDoetOrdinaActivity"
         android:background="#565A5C"
         android:layout_below="@+id/button_waarom_ordina"
         android:layout_centerHorizontal="true"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        android:minWidth="280dp"
+        android:fontFamily="Arial"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Young Professional Programma"
+        android:text="@string/young_professional_programma"
         android:id="@+id/button_young_professional_programma"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:onClick="startYoungProfessionalProgramma"
         android:background="#565A5C"
         android:layout_below="@+id/button_wat_doet_ordina"
         android:layout_centerHorizontal="true"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#FFFFFF"
+        android:minWidth="280dp" android:fontFamily="Arial"/>
 
 
 </RelativeLayout>

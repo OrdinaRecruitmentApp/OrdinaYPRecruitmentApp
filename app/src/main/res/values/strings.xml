@@ -19,6 +19,7 @@
     <string name="title_tab_afdelingen_niet_technisch">Niet Technisch</string>
 
 
+
     // strings afdelingen technisch
     <string name="title_afdelingen_technisch_java" >Java</string>
     <string name="text_afdelingen_technisch_java1">250 medewerkers &amp; 30 Young Professionals</string>
@@ -92,4 +93,13 @@
     <string name="text_yp_programma6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulpu </string>
 
     <string name="title_yp_programma4">Coaching</string>
+
+    <string name="waarom_ordina_kiezen">Waarom Ordina kiezen?</string>
+    <string name="wat_doet_ordina">Wat doet Ordina?</string>
+    <string name="young_professional_programma">Young Professional Programma</string>
+    <string name="klanten_activity_text">lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempo inciddunt ut labore et dolore magna alique.
+        Ut eni, ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex</string>
+
 </resources>
