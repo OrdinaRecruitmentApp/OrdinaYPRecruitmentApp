@@ -17,4 +17,8 @@
     <string name="title_activity_projecten">ProjectenActivity</string>
     <string name="title_tab_afdelingen_technisch">Technisch</string>
     <string name="title_tab_afdelingen_niet_technisch">Niet Technisch</string>
+
+    <string name="waarom_ordina_kiezen">Waarom Ordina kiezen?</string>
+    <string name="wat_doet_ordina">Wat doet Ordina?</string>
+    <string name="young_professional_programma">Young Professional Programma</string>
 </resources>
