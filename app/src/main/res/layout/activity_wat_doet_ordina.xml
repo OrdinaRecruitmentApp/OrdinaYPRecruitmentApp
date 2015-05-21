@@ -5,7 +5,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="nl.ordina.yp.ordinarecruitmentapp.WatDoetOrdinaActivity"
-    android:background="@drawable/ClaimJouwPlekRunningMan480x800px"
+    android:background="@drawable/claim_jouw_plek_running_man_480_800"
     >
 
 
