@@ -50,7 +50,6 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/editText4"
                     android:text="“Ordina geeft mij het gevoel dat ik verder kan groeien en mag ontdekken waar ik nog meer goed in ben. Naast dit gevoel voel ik ook de warme en open sfeer binnen het bedrijf. Daarom heb ik voor Ordina gekozen.”"
                     android:textIsSelectable="false"
                     android:textSize="10dp"
@@ -73,7 +72,270 @@
             <LinearLayout android:layout_width="wrap_content"
                           android:layout_height="wrap_content"
                           android:layout_marginTop="3dp"
-                          android:id="@+id/klanten_row_1"
+                          android:orientation="horizontal" android:baselineAligned="false">
+
+
+
+                <RelativeLayout android:layout_width="wrap_content"
+                                android:layout_height="match_parent" android:layout_weight="0.11">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/alwintan"
+                        />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="“Ordina geeft mij het gevoel dat ik verder kan groeien en mag ontdekken waar ik nog meer goed in ben. Naast dit gevoel voel ik ook de warme en open sfeer binnen het bedrijf. Daarom heb ik voor Ordina gekozen.”"
+                        android:textIsSelectable="false"
+                        android:textSize="10dp"
+                        android:textColor="#ffffffff"
+                        android:typeface="normal"
+                        android:fontFamily="Arial" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!--alwin tan-->
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_marginTop="3dp">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Mark Mulder - Junior Technical Consultant"/>
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="3dp"
+                          android:orientation="horizontal" android:baselineAligned="false">
+
+
+
+                <RelativeLayout android:layout_width="wrap_content"
+                                android:layout_height="match_parent" android:layout_weight="0.11">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/alwintan"
+                        />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="“Ordina geeft mij het gevoel dat ik verder kan groeien en mag ontdekken waar ik nog meer goed in ben. Naast dit gevoel voel ik ook de warme en open sfeer binnen het bedrijf. Daarom heb ik voor Ordina gekozen.”"
+                        android:textIsSelectable="false"
+                        android:textSize="10dp"
+                        android:textColor="#ffffffff"
+                        android:typeface="normal"
+                        android:fontFamily="Arial" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!--alwin tan-->
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_marginTop="3dp">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Mark Mulder - Junior Technical Consultant"/>
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="3dp"
+                          android:orientation="horizontal" android:baselineAligned="false">
+
+
+
+                <RelativeLayout android:layout_width="wrap_content"
+                                android:layout_height="match_parent" android:layout_weight="0.11">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/alwintan"
+                        />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="“Ordina geeft mij het gevoel dat ik verder kan groeien en mag ontdekken waar ik nog meer goed in ben. Naast dit gevoel voel ik ook de warme en open sfeer binnen het bedrijf. Daarom heb ik voor Ordina gekozen.”"
+                        android:textIsSelectable="false"
+                        android:textSize="10dp"
+                        android:textColor="#ffffffff"
+                        android:typeface="normal"
+                        android:fontFamily="Arial" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!--alwin tan-->
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_marginTop="3dp">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Mark Mulder - Junior Technical Consultant"/>
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="3dp"
+                          android:orientation="horizontal" android:baselineAligned="false">
+
+
+
+                <RelativeLayout android:layout_width="wrap_content"
+                                android:layout_height="match_parent" android:layout_weight="0.11">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/alwintan"
+                        />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="“Ordina geeft mij het gevoel dat ik verder kan groeien en mag ontdekken waar ik nog meer goed in ben. Naast dit gevoel voel ik ook de warme en open sfeer binnen het bedrijf. Daarom heb ik voor Ordina gekozen.”"
+                        android:textIsSelectable="false"
+                        android:textSize="10dp"
+                        android:textColor="#ffffffff"
+                        android:typeface="normal"
+                        android:fontFamily="Arial" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!--alwin tan-->
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_marginTop="3dp">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Mark Mulder - Junior Technical Consultant"/>
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="3dp"
+                          android:orientation="horizontal" android:baselineAligned="false">
+
+
+
+                <RelativeLayout android:layout_width="wrap_content"
+                                android:layout_height="match_parent" android:layout_weight="0.11">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/alwintan"
+                        />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="“Ordina geeft mij het gevoel dat ik verder kan groeien en mag ontdekken waar ik nog meer goed in ben. Naast dit gevoel voel ik ook de warme en open sfeer binnen het bedrijf. Daarom heb ik voor Ordina gekozen.”"
+                        android:textIsSelectable="false"
+                        android:textSize="10dp"
+                        android:textColor="#ffffffff"
+                        android:typeface="normal"
+                        android:fontFamily="Arial" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!--alwin tan-->
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_marginTop="3dp">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Mark Mulder - Junior Technical Consultant"/>
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="3dp"
+                          android:orientation="horizontal" android:baselineAligned="false">
+
+
+
+                <RelativeLayout android:layout_width="wrap_content"
+                                android:layout_height="match_parent" android:layout_weight="0.11">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/alwintan"
+                        />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="“Ordina geeft mij het gevoel dat ik verder kan groeien en mag ontdekken waar ik nog meer goed in ben. Naast dit gevoel voel ik ook de warme en open sfeer binnen het bedrijf. Daarom heb ik voor Ordina gekozen.”"
+                        android:textIsSelectable="false"
+                        android:textSize="10dp"
+                        android:textColor="#ffffffff"
+                        android:typeface="normal"
+                        android:fontFamily="Arial" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!--alwin tan-->
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_marginTop="3dp">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Mark Mulder - Junior Technical Consultant"/>
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="3dp"
                           android:orientation="horizontal" android:baselineAligned="false">
 
 
@@ -119,7 +381,6 @@
             <LinearLayout android:layout_width="wrap_content"
                           android:layout_height="wrap_content"
                           android:layout_marginTop="3dp"
-                          android:id="@+id/klanten_row_1"
                           android:orientation="horizontal" android:baselineAligned="false">
 
 
@@ -143,7 +404,6 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/editText4"
                         android:text="“Ordina geeft mij het gevoel dat ik verder kan groeien en mag ontdekken waar ik nog meer goed in ben. Naast dit gevoel voel ik ook de warme en open sfeer binnen het bedrijf. Daarom heb ik voor Ordina gekozen.”"
                         android:textIsSelectable="false"
                         android:textSize="10dp"
@@ -153,283 +413,7 @@
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-        <!--alwin tan-->
-        <LinearLayout android:layout_width="match_parent"
-                      android:layout_height="wrap_content"
-                      android:orientation="vertical"
-                      android:layout_marginTop="3dp">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="Mark Mulder - Junior Technical Consultant"/>
 
-            <LinearLayout android:layout_width="wrap_content"
-                          android:layout_height="wrap_content"
-                          android:layout_marginTop="3dp"
-                          android:id="@+id/klanten_row_1"
-                          android:orientation="horizontal" android:baselineAligned="false">
-
-
-
-                <RelativeLayout android:layout_width="wrap_content"
-                                android:layout_height="match_parent" android:layout_weight="0.11">
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/alwintan"
-                        />
-                </RelativeLayout>
-
-                <LinearLayout
-                    android:layout_weight="1"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/editText4"
-                        android:text="“Ordina geeft mij het gevoel dat ik verder kan groeien en mag ontdekken waar ik nog meer goed in ben. Naast dit gevoel voel ik ook de warme en open sfeer binnen het bedrijf. Daarom heb ik voor Ordina gekozen.”"
-                        android:textIsSelectable="false"
-                        android:textSize="10dp"
-                        android:textColor="#ffffffff"
-                        android:typeface="normal"
-                        android:fontFamily="Arial" />
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-        <!--alwin tan-->
-        <LinearLayout android:layout_width="match_parent"
-                      android:layout_height="wrap_content"
-                      android:orientation="vertical"
-                      android:layout_marginTop="3dp">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="Mark Mulder - Junior Technical Consultant"/>
-
-            <LinearLayout android:layout_width="wrap_content"
-                          android:layout_height="wrap_content"
-                          android:layout_marginTop="3dp"
-                          android:id="@+id/klanten_row_1"
-                          android:orientation="horizontal" android:baselineAligned="false">
-
-
-
-                <RelativeLayout android:layout_width="wrap_content"
-                                android:layout_height="match_parent" android:layout_weight="0.11">
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/alwintan"
-                        />
-                </RelativeLayout>
-
-                <LinearLayout
-                    android:layout_weight="1"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/editText4"
-                        android:text="“Ordina geeft mij het gevoel dat ik verder kan groeien en mag ontdekken waar ik nog meer goed in ben. Naast dit gevoel voel ik ook de warme en open sfeer binnen het bedrijf. Daarom heb ik voor Ordina gekozen.”"
-                        android:textIsSelectable="false"
-                        android:textSize="10dp"
-                        android:textColor="#ffffffff"
-                        android:typeface="normal"
-                        android:fontFamily="Arial" />
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-        <!--alwin tan-->
-        <LinearLayout android:layout_width="match_parent"
-                      android:layout_height="wrap_content"
-                      android:orientation="vertical"
-                      android:layout_marginTop="3dp">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="Mark Mulder - Junior Technical Consultant"/>
-
-            <LinearLayout android:layout_width="wrap_content"
-                          android:layout_height="wrap_content"
-                          android:layout_marginTop="3dp"
-                          android:id="@+id/klanten_row_1"
-                          android:orientation="horizontal" android:baselineAligned="false">
-
-
-
-                <RelativeLayout android:layout_width="wrap_content"
-                                android:layout_height="match_parent" android:layout_weight="0.11">
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/alwintan"
-                        />
-                </RelativeLayout>
-
-                <LinearLayout
-                    android:layout_weight="1"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/editText4"
-                        android:text="“Ordina geeft mij het gevoel dat ik verder kan groeien en mag ontdekken waar ik nog meer goed in ben. Naast dit gevoel voel ik ook de warme en open sfeer binnen het bedrijf. Daarom heb ik voor Ordina gekozen.”"
-                        android:textIsSelectable="false"
-                        android:textSize="10dp"
-                        android:textColor="#ffffffff"
-                        android:typeface="normal"
-                        android:fontFamily="Arial" />
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-        <!--alwin tan-->
-        <LinearLayout android:layout_width="match_parent"
-                      android:layout_height="wrap_content"
-                      android:orientation="vertical"
-                      android:layout_marginTop="3dp">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="Mark Mulder - Junior Technical Consultant"/>
-
-            <LinearLayout android:layout_width="wrap_content"
-                          android:layout_height="wrap_content"
-                          android:layout_marginTop="3dp"
-                          android:id="@+id/klanten_row_1"
-                          android:orientation="horizontal" android:baselineAligned="false">
-
-
-
-                <RelativeLayout android:layout_width="wrap_content"
-                                android:layout_height="match_parent" android:layout_weight="0.11">
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/alwintan"
-                        />
-                </RelativeLayout>
-
-                <LinearLayout
-                    android:layout_weight="1"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/editText4"
-                        android:text="“Ordina geeft mij het gevoel dat ik verder kan groeien en mag ontdekken waar ik nog meer goed in ben. Naast dit gevoel voel ik ook de warme en open sfeer binnen het bedrijf. Daarom heb ik voor Ordina gekozen.”"
-                        android:textIsSelectable="false"
-                        android:textSize="10dp"
-                        android:textColor="#ffffffff"
-                        android:typeface="normal"
-                        android:fontFamily="Arial" />
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-        <!--alwin tan-->
-        <LinearLayout android:layout_width="match_parent"
-                      android:layout_height="wrap_content"
-                      android:orientation="vertical"
-                      android:layout_marginTop="3dp">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="Mark Mulder - Junior Technical Consultant"/>
-
-            <LinearLayout android:layout_width="wrap_content"
-                          android:layout_height="wrap_content"
-                          android:layout_marginTop="3dp"
-                          android:id="@+id/klanten_row_1"
-                          android:orientation="horizontal" android:baselineAligned="false">
-
-
-
-                <RelativeLayout android:layout_width="wrap_content"
-                                android:layout_height="match_parent" android:layout_weight="0.11">
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/alwintan"
-                        />
-                </RelativeLayout>
-
-                <LinearLayout
-                    android:layout_weight="1"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/editText4"
-                        android:text="“Ordina geeft mij het gevoel dat ik verder kan groeien en mag ontdekken waar ik nog meer goed in ben. Naast dit gevoel voel ik ook de warme en open sfeer binnen het bedrijf. Daarom heb ik voor Ordina gekozen.”"
-                        android:textIsSelectable="false"
-                        android:textSize="10dp"
-                        android:textColor="#ffffffff"
-                        android:typeface="normal"
-                        android:fontFamily="Arial" />
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-        <!--alwin tan-->
-        <LinearLayout android:layout_width="match_parent"
-                      android:layout_height="wrap_content"
-                      android:orientation="vertical"
-                      android:layout_marginTop="3dp">
-            <TextView android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:text="Mark Mulder - Junior Technical Consultant"/>
-
-            <LinearLayout android:layout_width="wrap_content"
-                          android:layout_height="wrap_content"
-                          android:layout_marginTop="3dp"
-                          android:id="@+id/klanten_row_1"
-                          android:orientation="horizontal" android:baselineAligned="false">
-
-
-
-                <RelativeLayout android:layout_width="wrap_content"
-                                android:layout_height="match_parent" android:layout_weight="0.11">
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/alwintan"
-                        />
-                </RelativeLayout>
-
-                <LinearLayout
-                    android:layout_weight="1"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/editText4"
-                        android:text="“Ordina geeft mij het gevoel dat ik verder kan groeien en mag ontdekken waar ik nog meer goed in ben. Naast dit gevoel voel ik ook de warme en open sfeer binnen het bedrijf. Daarom heb ik voor Ordina gekozen.”"
-                        android:textIsSelectable="false"
-                        android:textSize="10dp"
-                        android:textColor="#ffffffff"
-                        android:typeface="normal"
-                        android:fontFamily="Arial" />
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-        
 
 
 
