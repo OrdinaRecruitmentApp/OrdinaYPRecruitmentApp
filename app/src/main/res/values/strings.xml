@@ -17,4 +17,79 @@
     <string name="title_activity_projecten">ProjectenActivity</string>
     <string name="title_tab_afdelingen_technisch">Technisch</string>
     <string name="title_tab_afdelingen_niet_technisch">Niet Technisch</string>
+
+
+    // strings afdelingen technisch
+    <string name="title_afdelingen_technisch_java" >Java</string>
+    <string name="text_afdelingen_technisch_java1">250 medewerkers &amp; 30 Young Professionals</string>
+    <string name="text_afdelingen_technisch_java2">Klanten: Eneco, BelastingDient, NS</string>
+    <string name="text_afdelingen_technisch_java3">Spring, JPA/Hibernate, Maven, NetBeans, IntelliJ, Eclipse</string>
+    <string name="text_afdelingen_technisch_java4">Oracle certificering (OCA/OCP), Agile, KISS</string>
+
+    <string name="title_afdelingen_technisch_microsoft">Microsoft</string>
+    <string name="text_afdelingen_technisch_microsoft1">135 mederwerkers &amp; 25 Young Professionals</string>
+    <string name="text_afdelingen_technisch_microsoft2">Klanten: Eneco, BelastingDienst, NS</string>
+    <string name="text_afdelingen_technisch_microsoft3">ASP.NET MVC, Advanced .NET, HTML/CSS, Azure</string>
+    <string name="text_afdelingen_technisch_microsoft4">Agile, Design Patterns, Microsoft Stack</string>
+
+    <string name="title_afdelingen_technisch_testing">Testing</string>
+    <string name="text_afdelingen_technisch_testing1">135 medewerkers &amp; 25 Young Professionals></string>
+    <string name="text_afdelingen_technisch_testing2">Klanten: Eneco, Belastingdienst, NS</string>
+    <string name="text_afdelingen_technisch_testing3">QTP, Selenium IDE, FitNesse, HTML/XML/SOA</string>
+    <string name="text_afdelingen_technisch_testing4">Agile, TMAP Next, Security &amp; Mobile testing</string>
+
+    <string name="title_afdelingen_technisch_opsengineer">OPS-engineer</string>
+    <string name="text_afdelingen_technisch_ops1">135 medewerkers &amp; 25 Young Professionals</string>
+    <string name="text_afdelingen_technisch_ops2">Klanten: Rabobank, Min. Binnenlandse Zaken, ...</string>
+    <string name="text_afdelingen_technisch_ops3">Shell-scripting, Python, Puppet, Tomcat</string>
+    <string name="text_afdelingen_technisch_ops4">Blah, blah, blah</string>
+
+    // strings afdelingen niet technisch
+    <string name="title_afdelingen_niet_technisch_sales" >Sales</string>
+    <string name="text_afdelingen_niet_technisch_sales1">Blah, blah, blah</string>
+    <string name="text_afdelingen_niet_technisch_sales2">Blah, blah, blah, blah</string>
+    <string name="text_afdelingen_niet_technisch_sales3">Blah, blah, blah, blah</string>
+    <string name="text_afdelingen_niet_technisch_sales4">Blah, blah, blah, blah</string>
+
+    <string name="title_afdelingen_niet_technisch_recruitment">Recruitment</string>
+    <string name="text_afdelingen_niet_technisch_recruitment1">Blah, blah, blah, blah</string>
+    <string name="text_afdelingen_niet_technisch_recruitment2">Blah, blah, blah, blah</string>
+    <string name="text_afdelingen_niet_technisch_recruitment3">Blah, blah, blah, blah</string>
+    <string name="text_afdelingen_niet_technisch_recruitment4">Blah, blah, blah, blah</string>
+
+    <string name="title_afdelingen_niet_technisch_consultancy">Consultancy</string>
+    <string name="text_afdelingen_niet_technisch_consultancy1">Blah, blah, blah, blah</string>
+    <string name="text_afdelingen_niet_technisch_consultancy2">Blah, blah, blah, blah</string>
+    <string name="text_afdelingen_niet_technisch_consultancy3">Blah, blah, blah, blah</string>
+    <string name="text_afdelingen_niet_technisch_consultancy4">Blah, blah, blah, blah</string>
+
+    <string name="title_afdelingen_niet_technisch_anders">Iets anders</string>
+    <string name="text_afdelingen_niet_technisch_anders1">Blah, blah, blah, blah</string>
+    <string name="text_afdelingen_niet_technisch_anders2">Blah, blah, blah, blah</string>
+    <string name="text_afdelingen_niet_technisch_anders3">Blah, blah, blah, blah</string>
+    <string name="text_afdelingen_niet_technisch_anders4">Blah, blah, blah, blah</string>
+
+    //strings projecten
+    <string name="text_projecten_prorail">Een Computer Vision-oplossing om de wereld buiten digitaal te vergelijken met het spoorontwerp binnen.
+        Ordina gaat de oplossing realiseren met OpenCV beeldherkenning en videooverwerking in combinatie met moderne JavaFX- en FME Geo-technologie.
+        Aansluitend aan de bouw zal ook het beheer vijf jaar bij Ordina komen te liggen.</string>
+    <string name="text_projecten_politie">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
+        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
+        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
+    </string>
+
+    //strings YP programma
+    <string name="title_yp_programma1">2 Jarige opleidingsprogramma</string>
+    <string name="text_yp_programma1">6-8 Weken intensieve basisopleiding</string>
+    <string name="text_yp_programma2">Persoonlijke groei en zelfregie</string>
+    <string name="text_yp_programma3">Trainingen worden verzorgd door ervaren docenten van de Ordina Academy</string>
+
+    <string name="title_yp_programma2">Leuk om te weten</string>
+    <string name="text_yp_programma4">Young professionals ontwikkelen zich tot vakinhoudelijke professionals die het verschil maken</string>
+    <string name="text_yp_programma5">Sinds 2011 heeft Ordina al meer dan 90 Young Professionals opgeleid!</string>
+
+    <string name="title_yp_programma3">Opdrachten</string>
+    <string name="text_yp_programma6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulpu </string>
+
+    <string name="title_yp_programma4">Coaching</string>
 </resources>
