@@ -26,7 +26,7 @@
         </activity>
         <activity
             android:name=".WatDoetOrdinaActivity"
-            android:label="WatDoetOrdinaActivity"
+            android:label="@string/title_activity_wat_doet_ordina"
             android:parentActivityName="nl.ordina.yp.recruitmentapp.MainActivity"
             android:screenOrientation="portrait">
         </activity>

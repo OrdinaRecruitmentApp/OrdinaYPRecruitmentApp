@@ -3,18 +3,18 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_waarom_ordina">WaaromOrdinaActivity</string>
-    <string name="title_activity_wat_doet_ordina">WatDoetOrdina</string>
-    <string name="title_activity_young_professional_programma">YoungProfessionalProgramma</string>
+    <string name="title_activity_waarom_ordina">Waarom Ordina Kiezen?</string>
+    <string name="title_activity_wat_doet_ordina">Wat Doet Ordina?</string>
+    <string name="title_activity_young_professional_programma">YP Programma</string>
 
     <string name="young_professionals">Young Professionals</string>
 
     <string name="text_button_afdelingen">Afdelingen</string>
     <string name="text_button_klanten">Klanten</string>
     <string name="text_button_projecten">Projecten</string>
-    <string name="title_activity_afdelingen">AfdelingenActivity</string>
-    <string name="title_activity_klanten">KlantenActivity</string>
-    <string name="title_activity_projecten">ProjectenActivity</string>
+    <string name="title_activity_afdelingen">Afdelingen</string>
+    <string name="title_activity_klanten">Klanten</string>
+    <string name="title_activity_projecten">Projecten</string>
     <string name="title_tab_afdelingen_technisch">Technisch</string>
     <string name="title_tab_afdelingen_niet_technisch">Niet Technisch</string>
 
