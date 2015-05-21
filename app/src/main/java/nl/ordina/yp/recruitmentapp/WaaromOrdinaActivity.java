@@ -1,5 +1,7 @@
 package nl.ordina.yp.recruitmentapp;
 
+import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
@@ -12,6 +14,7 @@ public class WaaromOrdinaActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_waarom_ordina);
+        
     }
 
 
