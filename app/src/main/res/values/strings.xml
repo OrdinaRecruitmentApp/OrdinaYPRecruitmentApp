@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">OrdinaReqruitmentApp</string>
+    <string name="app_name">OrdinaRecruitmentApp</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -28,7 +28,7 @@
     <string name="text_afdelingen_technisch_java4">Oracle certificering (OCA/OCP), Agile, KISS</string>
 
     <string name="title_afdelingen_technisch_microsoft">Microsoft</string>
-    <string name="text_afdelingen_technisch_microsoft1">135 mederwerkers &amp; 25 Young Professionals</string>
+    <string name="text_afdelingen_technisch_microsoft1">135 medewerkers &amp; 25 Young Professionals</string>
     <string name="text_afdelingen_technisch_microsoft2">Klanten: Eneco, BelastingDienst, NS</string>
     <string name="text_afdelingen_technisch_microsoft3">ASP.NET MVC, Advanced .NET, HTML/CSS, Azure</string>
     <string name="text_afdelingen_technisch_microsoft4">Agile, Design Patterns, Microsoft Stack</string>
@@ -72,7 +72,7 @@
 
     //strings projecten
     <string name="text_projecten_prorail">Een Computer Vision-oplossing om de wereld buiten digitaal te vergelijken met het spoorontwerp binnen.
-        Ordina gaat de oplossing realiseren met OpenCV beeldherkenning en videooverwerking in combinatie met moderne JavaFX- en FME Geo-technologie.
+        Ordina gaat de oplossing realiseren met OpenCV beeldherkenning en videoverwerking in combinatie met moderne JavaFX- en FME Geo-technologie.
         Aansluitend aan de bouw zal ook het beheer vijf jaar bij Ordina komen te liggen.</string>
     <string name="text_projecten_politie">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
         Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde

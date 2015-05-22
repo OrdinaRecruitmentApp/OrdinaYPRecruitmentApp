@@ -15,14 +15,13 @@
         android:layout_height="wrap_content"
         android:text="@string/text_button_afdelingen"
         android:id="@+id/button_afdelingen"
-        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="180dp"
         android:onClick="startAfdelingenActivity"
         android:background="#E98300"
         android:minWidth="200dp"
         android:textColor="#ffffff"
-        android:fontFamily="Georgia"
+        android:fontFamily="Arial"
         />
 
     <Button
