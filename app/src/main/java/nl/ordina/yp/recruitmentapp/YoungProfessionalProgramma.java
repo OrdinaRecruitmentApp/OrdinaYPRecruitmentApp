@@ -1,9 +1,12 @@
 package nl.ordina.yp.recruitmentapp;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class YoungProfessionalProgramma extends ActionBarActivity {
 
@@ -37,5 +40,9 @@ public class YoungProfessionalProgramma extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-
+    public void goToVacatures(View view){
+        Intent vacatureLink = new Intent(android.content.Intent.ACTION_VIEW);
+        vacatureLink.setData(Uri.parse("http://m.werkenbijordina.nl/nl/mobile/617/jobs?combine=young+professional&field_functiegroep_tid=All&field_region_tid=All"));
+        startActivity(vacatureLink);
+    }
 }
