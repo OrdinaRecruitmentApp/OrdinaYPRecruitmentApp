@@ -1,11 +1,15 @@
 package nl.ordina.yp.recruitmentapp;
 
+import android.app.Dialog;
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
+import android.widget.PopupWindow;
 
 import nl.ordina.yp.recruitmentapp.watdoetordina.AfdelingenActivity;
 import nl.ordina.yp.recruitmentapp.watdoetordina.KlantenActivity;
@@ -14,10 +18,16 @@ import nl.ordina.yp.recruitmentapp.watdoetordina.ProjectenActivity;
 
 public class WatDoetOrdinaActivity extends ActionBarActivity {
 
+//    private void initializeButtons(){
+//        Button projectenButton= (Button) findViewById(R.id.button3);
+//        projectenButton.setVisibility(View.VISIBLE);
+//    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wat_doet_ordina);
+//        initializeButtons();
     }
 
     @Override
@@ -45,17 +55,26 @@ public class WatDoetOrdinaActivity extends ActionBarActivity {
     }
 
 
-    public void startAfdelingenActivity(View view){
+    public void startAfdelingenActivity(View view) {
         Intent intent = new Intent(this, AfdelingenActivity.class);
         startActivity(intent);
     }
-    public void startKlantenActivity(View view){
+
+    public void startKlantenActivity(View view) {
         Intent intent = new Intent(this, KlantenActivity.class);
         startActivity(intent);
     }
 
-    public void startProjectenActivity(View view){
-        Intent intent = new Intent(this, ProjectenActivity.class);
-        startActivity(intent);
+    public void startProjectenActivity(View view) {
+
+
+
+
+
+//
+//        PopupWindow projectenPopup = new PopupWindow();
+//
+//        Intent intent = new Intent(this, ProjectenActivity.class);
+//        startActivity(intent);
     }
 }

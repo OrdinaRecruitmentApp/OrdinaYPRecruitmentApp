@@ -1,9 +1,15 @@
 package nl.ordina.yp.recruitmentapp.watdoetordina;
 
+import android.app.Dialog;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.Window;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 import nl.ordina.yp.recruitmentapp.R;
 
@@ -37,5 +43,22 @@ public class KlantenActivity extends ActionBarActivity {
 //        }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void showProjectDialog(View view){
+        final Dialog dialog = new Dialog(this);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+
+        ImageView projectImage = (ImageView) findViewById(R.id.klantprojecten_image);
+        TextView projectText = (TextView) findViewById(R.id.klantprojecten_text);
+
+
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
+        if(view.getId()== R.id.belastingdienst) {
+            dialog.setContentView(R.layout.activity_projecten_dialog);
+//            projectText.setText(R.string.text_projecten_politie);
+//            projectImage.setImageResource(R.drawable.belastingdienst);
+        }
+        dialog.show();
     }
 }

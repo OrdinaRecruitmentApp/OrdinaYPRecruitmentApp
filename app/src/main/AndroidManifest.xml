@@ -8,10 +8,10 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="nl.ordina.yp.recruitmentapp.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme_no_actionbar">
+            android:theme="@style/AppTheme_no_actionbar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,20 +21,20 @@
         <activity
             android:name=".WaaromOrdinaActivity"
             android:label="@string/title_activity_waarom_ordina"
-            android:parentActivityName="nl.ordina.yp.recruitmentapp.MainActivity"
-            android:screenOrientation="portrait">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".WatDoetOrdinaActivity"
             android:label="@string/title_activity_wat_doet_ordina"
-            android:parentActivityName="nl.ordina.yp.recruitmentapp.MainActivity"
-            android:screenOrientation="portrait">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".YoungProfessionalProgramma"
             android:label="@string/title_activity_young_professional_programma"
-            android:parentActivityName="nl.ordina.yp.recruitmentapp.MainActivity"
-            android:screenOrientation="portrait">
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="nl.ordina.yp.recruitmentapp.MainActivity" />
@@ -43,22 +43,26 @@
             android:name=".watdoetordina.AfdelingenActivity"
             android:label="@string/title_activity_afdelingen"
             android:parentActivityName=".WatDoetOrdinaActivity"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".watdoetordina.KlantenActivity"
             android:label="@string/title_activity_klanten"
             android:parentActivityName=".WatDoetOrdinaActivity"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".watdoetordina.ProjectenActivity"
             android:label="@string/title_activity_projecten"
             android:parentActivityName=".WatDoetOrdinaActivity"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".WatDoetOrdinaActivity" />
+        </activity>
+        <activity
+            android:name=".watdoetordina.klantprojecten.projectBelastingdienst"
+            android:label="@string/title_activity_project_belastingdienst" >
         </activity>
     </application>
 
