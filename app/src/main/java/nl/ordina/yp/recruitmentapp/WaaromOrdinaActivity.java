@@ -40,9 +40,10 @@ public class WaaromOrdinaActivity extends ActionBarActivity {
 
         //noinspection SimplifiableIfStatement
         //Settings in xml files uit gecomment
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
+        if (id == R.id.action_email) {
+
+            sendEmail();
+        }
 
         return super.onOptionsItemSelected(item);
     }
@@ -51,5 +52,18 @@ public class WaaromOrdinaActivity extends ActionBarActivity {
         Intent vacatureLink = new Intent(android.content.Intent.ACTION_VIEW);
         vacatureLink.setData(Uri.parse("http://m.werkenbijordina.nl/nl/mobile/617/jobs?combine=young+professional&field_functiegroep_tid=All&field_region_tid=All"));
         startActivity(vacatureLink);
+    }
+
+    public void sendEmail() {
+        String TO = this.getString(R.string.email_address);
+        String subject = this.getString(R.string.email_subject);
+
+        Intent email = new Intent(Intent.ACTION_SEND);
+        email.putExtra(Intent.EXTRA_EMAIL, TO);
+        email.putExtra(Intent.EXTRA_SUBJECT, subject);
+
+        email.setType(this.getString(R.string.email_type));
+
+        startActivity(Intent.createChooser(email, this.getString(R.string.email_choose_message)));
     }
 }

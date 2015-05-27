@@ -1,6 +1,7 @@
 package nl.ordina.yp.recruitmentapp.watdoetordina;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -37,7 +38,7 @@ public class KlantenActivity extends ActionBarActivity {
         projectLogos.put(R.id.belastingdienst, R.drawable.belastingdienst);
         projectLogos.put(R.id.prorail, R.drawable.prorail);
         projectLogos.put(R.id.ns, R.drawable.ns);
-        projectLogos.put(R.id.ziggo, R.drawable.ziggo);
+        projectLogos.put(R.id.ziggo, R.drawable.ziggo_280x214px);
     }
 
     private void initializeProjectTexts() {
@@ -68,9 +69,9 @@ public class KlantenActivity extends ActionBarActivity {
 
         //noinspection SimplifiableIfStatement
         //Settings in xml files uit gecomment
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
+        if (id == R.id.action_email) {
+            sendEmail();
+        }
 
         return super.onOptionsItemSelected(item);
     }
@@ -90,6 +91,18 @@ public class KlantenActivity extends ActionBarActivity {
 
         dialog.show();
 
+    }
 
+    public void sendEmail() {
+        String[] TO = {this.getString(R.string.email_address)};
+        String subject = this.getString(R.string.email_subject);
+
+        Intent email = new Intent(Intent.ACTION_SEND);
+        email.putExtra(Intent.EXTRA_EMAIL, TO);
+        email.putExtra(Intent.EXTRA_SUBJECT, subject);
+
+        email.setType(this.getString(R.string.email_type));
+
+        startActivity(Intent.createChooser(email, this.getString(R.string.email_choose_message)));
     }
 }

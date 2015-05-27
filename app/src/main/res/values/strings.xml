@@ -1,5 +1,13 @@
 <resources>
 
+    //strings menu
+
+    <string name="title_email_icon">Email</string>
+    <string name="email_address">tjeerdjannieuwenhuis@gmail.com</string>
+    <string name="email_subject">Ik heb een vraag</string>
+    <string name="email_type">message/rfc822</string>
+    <string name="email_choose_message">Choose an Email client :</string>
+
     // strings Waarom Ordina?
     <string name="title_alwin_tan">ALWIN TAN - (JUNIOR TECHNICAL CONSULTANT)</string>
     <string name="title_mark_mulder">MARK MULDER - (JUNIOR TECHNICAL CONSULTANT)</string>
@@ -33,6 +41,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
     <string name="title_activity_waarom_ordina">WAAROM ORDINA KIEZEN?</string>
     <string name="title_activity_wat_doet_ordina">WAT DOET ORDINA?</string>
     <string name="title_activity_young_professional_programma">YP PROGRAMMA</string>
