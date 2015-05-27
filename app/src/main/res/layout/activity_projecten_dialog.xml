@@ -19,14 +19,12 @@
         <ImageView
             android:id="@+id/klantprojecten_image"
             android:layout_width="260dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/prorail" />
+            android:layout_height="100dp"/>
 
         <TextView
             android:id="@+id/klantprojecten_text"
             android:layout_width="260dp"
             android:layout_height="match_parent"
-            android:text="@string/text_projecten_prorail"
             android:textColor="#000000" />
 
     </LinearLayout>
