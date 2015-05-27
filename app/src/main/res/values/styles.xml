@@ -6,7 +6,11 @@
         <!--<item name="android:background">#565A5C</item>-->
     </style>
 
-    <style name="AppTheme_no_actionbar" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme_no_actionbar" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="OrdinaButton" parent="android:Widget.Holo.Button">
+        <item name="android:background">#E98300</item>
+
     </style>
 
 </resources>

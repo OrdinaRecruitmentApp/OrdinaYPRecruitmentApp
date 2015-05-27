@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E98300"
+    android:layout_above="@+id/footer"
     >
 
     <LinearLayout
@@ -16,6 +17,7 @@
         android:paddingStart="20dp"
         android:paddingLeft="20dp"
         android:paddingTop="20dp"
+
         >
 
     <TextView
@@ -242,7 +244,29 @@
         android:layout_alignStart="@+id/textView18"
         android:textColor="#ffffff"/>
 
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/klanten_activity_text"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></TextView>
     </LinearLayout>
 
-
 </ScrollView>
+
+
+
+
+

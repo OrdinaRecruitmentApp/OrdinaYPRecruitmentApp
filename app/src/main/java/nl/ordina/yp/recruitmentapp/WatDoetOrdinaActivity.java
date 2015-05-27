@@ -67,10 +67,6 @@ public class WatDoetOrdinaActivity extends ActionBarActivity {
 
     public void startProjectenActivity(View view) {
 
-
-
-
-
 //
 //        PopupWindow projectenPopup = new PopupWindow();
 //

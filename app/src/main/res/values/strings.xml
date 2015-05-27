@@ -3,20 +3,20 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_waarom_ordina">Waarom Ordina Kiezen?</string>
-    <string name="title_activity_wat_doet_ordina">Wat Doet Ordina?</string>
-    <string name="title_activity_young_professional_programma">YP Programma</string>
+    <string name="title_activity_waarom_ordina">WAAROM ORDINA KIEZEN?</string>
+    <string name="title_activity_wat_doet_ordina">WAT DOET ORDINA?</string>
+    <string name="title_activity_young_professional_programma">YP PROGRAMMA</string>
 
     <string name="young_professionals">Young Professionals</string>
 
-    <string name="text_button_afdelingen">Afdelingen</string>
-    <string name="text_button_klanten">Klanten</string>
-    <string name="text_button_projecten">Projecten</string>
-    <string name="title_activity_afdelingen">Afdelingen</string>
-    <string name="title_activity_klanten">Klanten</string>
-    <string name="title_activity_projecten">Projecten</string>
-    <string name="title_tab_afdelingen_technisch">Technisch</string>
-    <string name="title_tab_afdelingen_niet_technisch">Niet Technisch</string>
+    <string name="text_button_afdelingen">AFDELINGEN</string>
+    <string name="text_button_klanten">KLANTEN</string>
+    <string name="text_button_projecten">PROJECTEN</string>
+    <string name="title_activity_afdelingen">AFDELINGEN</string>
+    <string name="title_activity_klanten">KLANTEN</string>
+    <string name="title_activity_projecten">PROJECTEN</string>
+    <string name="title_tab_afdelingen_technisch">TECHNISCH</string>
+    <string name="title_tab_afdelingen_niet_technisch">NIET TECHNISCH</string>
 
 
 
@@ -90,18 +90,19 @@
     <string name="text_yp_programma5">Sinds 2011 heeft Ordina al meer dan 90 Young Professionals opgeleid!</string>
 
     <string name="title_yp_programma3">Opdrachten</string>
-    <string name="text_yp_programma6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulpu </string>
+    <string name="text_yp_programma6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulpu Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </string>
 
     <string name="title_yp_programma4">Coaching</string>
     <string name="yp_vacatures">KLIK HIER VOOR DE VACATURES</string>
+    <string name="yp_vacatures2">BEKIJK DE VACATURES</string>
 
-    <string name="waarom_ordina_kiezen">Waarom Ordina kiezen?</string>
-    <string name="wat_doet_ordina">Wat doet Ordina?</string>
-    <string name="young_professional_programma">Young Professional Programma</string>
+    <string name="waarom_ordina_kiezen">WAAROM ORDINA KIEZEN?</string>
+    <string name="wat_doet_ordina">WAT DOET ORDINA?</string>
+    <string name="young_professional_programma">YOUNG PROFESSIONAL PROGRAMMA</string>
     <string name="klanten_activity_text">lorem ipsum dolor sit amet, consectetur adipisicing elit,
         sed do eiusmod tempo inciddunt ut labore et dolore magna alique.
         Ut eni, ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex    </string>
+        nisi ut aliquip ex</string>
     <string name="title_activity_project_belastingdienst">projectBelastingdienst</string>
 
 </resources>
