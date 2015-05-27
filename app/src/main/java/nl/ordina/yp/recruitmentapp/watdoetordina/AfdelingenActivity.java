@@ -1,5 +1,6 @@
 package nl.ordina.yp.recruitmentapp.watdoetordina;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -91,9 +92,9 @@ public class AfdelingenActivity extends ActionBarActivity implements ActionBar.T
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        //if (id == R.id.action_settings) {
-        //    return true;
-        //}
+        if (id == R.id.action_email) {
+            sendEmail();
+        }
 
         return super.onOptionsItemSelected(item);
     }
@@ -197,5 +198,17 @@ public class AfdelingenActivity extends ActionBarActivity implements ActionBar.T
 
             return rootView;
         }
+    }
+    public void sendEmail() {
+        String TO = this.getString(R.string.email_address);
+        String subject = this.getString(R.string.email_subject);
+
+        Intent email = new Intent(Intent.ACTION_SEND);
+        email.putExtra(Intent.EXTRA_EMAIL, TO);
+        email.putExtra(Intent.EXTRA_SUBJECT, subject);
+
+        email.setType(this.getString(R.string.email_type));
+
+        startActivity(Intent.createChooser(email, this.getString(R.string.email_choose_message)));
     }
 }

@@ -1,5 +1,6 @@
 package nl.ordina.yp.recruitmentapp.watdoetordina;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
@@ -32,10 +33,23 @@ public class ProjectenActivity extends ActionBarActivity {
 
         //noinspection SimplifiableIfStatement
         //Settings in xml files uit gecomment
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
+        if (id == R.id.action_email) {
+            sendEmail();
+        }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void sendEmail() {
+        String TO = this.getString(R.string.email_address);
+        String subject = this.getString(R.string.email_subject);
+
+        Intent email = new Intent(Intent.ACTION_SEND);
+        email.putExtra(Intent.EXTRA_EMAIL, TO);
+        email.putExtra(Intent.EXTRA_SUBJECT, subject);
+
+        email.setType(this.getString(R.string.email_type));
+
+        startActivity(Intent.createChooser(email, this.getString(R.string.email_choose_message)));
     }
 }
