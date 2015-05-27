@@ -1,18 +1,18 @@
 <resources>
 
     // strings Waarom Ordina?
-    <string name="title_alwin_tan">ALWIN TAN - JUNIOR TECHNICAL CONSULTANT</string>
-    <string name="title_mark_mulder">MARK MULDER - JUNIOR TECHNICAL CONSULTANT</string>
-    <string name="title_mark_de_munnik">MARK DE MUNNIK – JUNIOR TECHNICAL CONSULTANT</string>
-    <string name="title_jalal_mekmassi">JALAL MEKMASSI– JUNIOR TECHNICAL CONSULTANT</string>
-    <string name="title_sabrina_wilbrink_podesta">SABRINA WILBRINK-PODESTA– JUNIOR TECHNICAL CONSULTANT </string>
+    <string name="title_alwin_tan">ALWIN TAN - (JUNIOR TECHNICAL CONSULTANT)</string>
+    <string name="title_mark_mulder">MARK MULDER - (JUNIOR TECHNICAL CONSULTANT)</string>
+    <string name="title_mark_de_munnik">MARK DE MUNNIK – (JUNIOR TECHNICAL CONSULTANT)</string>
+    <string name="title_jalal_mekmassi">JALAL MEKMASSI– (JUNIOR TECHNICAL CONSULTANT)</string>
+    <string name="title_sabrina_wilbrink_podesta">SABRINA WILBRINK-PODESTA – (JUNIOR TECHNICAL CONSULTANT)</string>
 
 
-    <string name="text_alwin_tan">&quot;Ik heb Bewegingswetenschappen gestudeerd aan de Vrije Universiteit in Amsterdam.
-        Na mijn studie was het moeilijk om een baan te vinden in die sector.
-        Ik heb besloten om mij open te stellen voor alle mogelijkheden. Tijdens een bezoek op de carrièrebeurs kwam ik bij de stand van Ordina terecht.
+    <string name="text_alwin_tan">“Ik heb Bewegingswetenschappen gestudeerd aan de Vrije Universiteit in Amsterdam.
+        Na mijn studie was het moeilijk om een baan te vinden in die sector. Ik heb besloten om mij open te stellen voor alle mogelijkheden.
+        Tijdens een bezoek op de carrièrebeurs kwam ik bij de stand van Ordina terecht.
         Ik had het gevoel dat Ordina openstond voor mensen die een start willen maken in de IT-wereld, waarbij een IT-opleiding geen must was.
-        Die instelling en de mogelijkheden om jezelf te ontwikkelen, waren voor mij belangrijke argumenten om bij Ordina een start te maken in de IT-wereld.&quot;
+        Die instelling en de mogelijkheden om jezelf te ontwikkelen, waren voor mij belangrijke argumenten om bij Ordina een start te maken in de IT-wereld.“
     </string>
     <string name="text_mark_mulder">“Ordina geeft mij het gevoel dat ik verder kan groeien en mag ontdekken waar ik nog meer goed in ben.
         Naast dit gevoel voel ik ook de warme en open sfeer binnen het bedrijf. Daarom heb ik voor Ordina gekozen.”
@@ -20,8 +20,8 @@
     <string name="text_mark_de_munnik">“De sfeer binnen Ordina zou ik typeren als warm, informeel en relaxed. Je krijgt als Young Professional veel ruimte om jezelf te ontwikkelen.
         Dankzij het uitgebreide opleidingsprogramma kun je in korte tijd enorm veel leren. Door de goede mix van deze factoren heb ik gekozen voor Ordina.”
     </string>
-    <string name="text_jalal_mekmassi">&quot;Ordina is een warm bedrijf en er heerst een ontspannen sfeer. Het is voor Young Professionals, naast een uitgebreid opleidingsprogramma,
-        erg belangrijk mensen kunnen ontmoeten en ideeën uit te wisselen. Dit wordt volledig ondersteund door Ordina en is daarom een leuk bedrijf om voor te mogen werken.&quot;
+    <string name="text_jalal_mekmassi">“Ordina is een warm bedrijf en er heerst een ontspannen sfeer. Het is voor Young Professionals, naast een uitgebreid opleidingsprogramma,
+        erg belangrijk mensen kunnen ontmoeten en ideeën uit te wisselen. Dit wordt volledig ondersteund door Ordina en is daarom een leuk bedrijf om voor te mogen werken.“
     </string>
     <string name="text_sabrina_wilbrink_podesta">“Met een achtergrond als Dierwetenschapper en meerdere jaren ervaring als onderzoeker en kwaliteitsmanager,
         lijkt Ordina misschien niet direct een logische vervolgstap. Ik was echter op zoek naar een baan met uitdaging,
@@ -39,7 +39,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_waarom_ordina">Waarom Ordina Kiezen?</string>
+    <string name="title_activity_waarom_ordina">Waarom Ordina?</string>
     <string name="title_activity_wat_doet_ordina">Wat Doet Ordina?</string>
     <string name="title_activity_young_professional_programma">YP Programma</string>
 
