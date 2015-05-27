@@ -107,13 +107,53 @@
     <string name="text_afdelingen_niet_technisch_anders4">Blah, blah, blah, blah</string>
 
     //strings projecten
-    <string name="text_projecten_prorail">Een Computer Vision-oplossing om de wereld buiten digitaal te vergelijken met het spoorontwerp binnen.
+    <string name="text_projecten_prorail">Prorail text. Een Computer Vision-oplossing om de wereld buiten digitaal te vergelijken met het spoorontwerp binnen.
         Ordina gaat de oplossing realiseren met OpenCV beeldherkenning en videoverwerking in combinatie met moderne JavaFX- en FME Geo-technologie.
         Aansluitend aan de bouw zal ook het beheer vijf jaar bij Ordina komen te liggen.</string>
-    <string name="text_projecten_politie">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
+    <string name="text_projecten_politie">Politie text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
         Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
         om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
     </string>
+    <string name="text_projecten_rabobank">Rabobank text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
+        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
+        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
+    </string>
+    <string name="text_projecten_ing">ING text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
+        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
+        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
+    </string>
+    <string name="text_projecten_havenbedrijf_rotterdam">Havenbedrijf Rotterdam text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
+        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
+        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
+    </string>
+    <string name="text_projecten_youforce">Youforce text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
+        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
+        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
+    </string>
+    <string name="text_projecten_ziggo">Ziggo text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
+        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
+        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
+    </string>
+    <string name="text_projecten_r_v_d_k">RVDK text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
+        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
+        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
+    </string>
+    <string name="text_projecten_ns">NS text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
+        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
+        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
+    </string>
+    <string name="text_projecten_eneco">Eneco text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
+        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
+        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
+    </string>
+    <string name="text_projecten_belastingdienst">Belastingdienst text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
+        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
+        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
+    </string>
+
+
+
+
 
     //strings YP programma
     <string name="title_yp_programma1">2 Jarige opleidingsprogramma</string>
