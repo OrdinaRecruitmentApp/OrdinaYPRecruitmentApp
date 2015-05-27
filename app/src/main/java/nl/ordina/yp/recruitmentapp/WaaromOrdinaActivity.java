@@ -1,13 +1,16 @@
 package nl.ordina.yp.recruitmentapp;
 
 import android.app.ActionBar;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class WaaromOrdinaActivity extends ActionBarActivity {
@@ -42,5 +45,11 @@ public class WaaromOrdinaActivity extends ActionBarActivity {
 //        }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void goToVacatures(View view){
+        Intent vacatureLink = new Intent(android.content.Intent.ACTION_VIEW);
+        vacatureLink.setData(Uri.parse("http://m.werkenbijordina.nl/nl/mobile/617/jobs?combine=young+professional&field_functiegroep_tid=All&field_region_tid=All"));
+        startActivity(vacatureLink);
     }
 }
