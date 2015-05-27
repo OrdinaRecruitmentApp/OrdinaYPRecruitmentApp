@@ -1,6 +1,7 @@
 package nl.ordina.yp.recruitmentapp.watdoetordina;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -198,6 +199,12 @@ public class AfdelingenActivity extends ActionBarActivity implements ActionBar.T
 
             return rootView;
         }
+    }
+
+    public void goToVacatures(View view){
+        Intent vacatureLink = new Intent(android.content.Intent.ACTION_VIEW);
+        vacatureLink.setData(Uri.parse("http://m.werkenbijordina.nl/nl/mobile/617/jobs?combine=young+professional&field_functiegroep_tid=All&field_region_tid=All"));
+        startActivity(vacatureLink);
     }
     public void sendEmail() {
         String TO = this.getString(R.string.email_address);

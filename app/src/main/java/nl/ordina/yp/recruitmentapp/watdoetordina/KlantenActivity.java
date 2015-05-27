@@ -4,6 +4,7 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
@@ -21,6 +22,7 @@ public class KlantenActivity extends ActionBarActivity {
 
     HashMap<Integer, Integer> projectTexts = new HashMap<>();
     HashMap<Integer, Integer> projectLogos = new HashMap<>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -76,7 +78,7 @@ public class KlantenActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void showProjectDialog(View view){
+    public void showProjectDialog(View view) {
         int id = view.getId();
 
         final Dialog dialog = new Dialog(this);
@@ -91,6 +93,12 @@ public class KlantenActivity extends ActionBarActivity {
 
         dialog.show();
 
+    }
+
+    public void goToVacatures(View view) {
+        Intent vacatureLink = new Intent(android.content.Intent.ACTION_VIEW);
+        vacatureLink.setData(Uri.parse("http://m.werkenbijordina.nl/nl/mobile/617/jobs?combine=young+professional&field_functiegroep_tid=All&field_region_tid=All"));
+        startActivity(vacatureLink);
     }
 
     public void sendEmail() {
