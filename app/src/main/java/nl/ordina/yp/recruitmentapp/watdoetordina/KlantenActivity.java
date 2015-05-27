@@ -2,6 +2,7 @@ package nl.ordina.yp.recruitmentapp.watdoetordina;
 
 import android.app.Dialog;
 import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
@@ -11,14 +12,43 @@ import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.HashMap;
+
 import nl.ordina.yp.recruitmentapp.R;
 
 public class KlantenActivity extends ActionBarActivity {
 
+    HashMap<Integer, Integer> projectTexts = new HashMap<>();
+    HashMap<Integer, Integer> projectLogos = new HashMap<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_klanten);
+
+        initializeProjectTexts();
+        initializeProjectLogos();
+    }
+
+    private void initializeProjectLogos() {
+        projectLogos.put(R.id.rabobank, R.drawable.rabobank);
+        projectLogos.put(R.id.ing_bank, R.drawable.ing_bank);
+        projectLogos.put(R.id.eneco, R.drawable.eneco);
+        projectLogos.put(R.id.politie, R.drawable.politie);
+        projectLogos.put(R.id.belastingdienst, R.drawable.belastingdienst);
+        projectLogos.put(R.id.prorail, R.drawable.prorail);
+        projectLogos.put(R.id.ns, R.drawable.ns);
+        projectLogos.put(R.id.ziggo, R.drawable.ziggo);
+    }
+
+    private void initializeProjectTexts() {
+        projectTexts.put(R.id.rabobank, R.string.text_projecten_rabobank);
+        projectTexts.put(R.id.ing_bank, R.string.text_projecten_ing);
+        projectTexts.put(R.id.eneco, R.string.text_projecten_eneco);
+        projectTexts.put(R.id.politie, R.string.text_projecten_politie);
+        projectTexts.put(R.id.belastingdienst, R.string.text_projecten_belastingdienst);
+        projectTexts.put(R.id.prorail, R.string.text_projecten_prorail);
+        projectTexts.put(R.id.ns, R.string.text_projecten_ns);
+        projectTexts.put(R.id.ziggo, R.string.text_projecten_ziggo);
     }
 
     @Override
@@ -46,19 +76,20 @@ public class KlantenActivity extends ActionBarActivity {
     }
 
     public void showProjectDialog(View view){
+        int id = view.getId();
+
         final Dialog dialog = new Dialog(this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setContentView(R.layout.activity_projecten_dialog);
 
-        ImageView projectImage = (ImageView) findViewById(R.id.klantprojecten_image);
-        TextView projectText = (TextView) findViewById(R.id.klantprojecten_text);
+        TextView projectText = (TextView) dialog.findViewById(R.id.klantprojecten_text);
+        projectText.setText(projectTexts.get(id));
 
+        ImageView projectImage = (ImageView) dialog.findViewById(R.id.klantprojecten_image);
+        projectImage.setImageResource(projectLogos.get(id));
 
-        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
-        if(view.getId()== R.id.belastingdienst) {
-            dialog.setContentView(R.layout.activity_projecten_dialog);
-//            projectText.setText(R.string.text_projecten_politie);
-//            projectImage.setImageResource(R.drawable.belastingdienst);
-        }
         dialog.show();
+
+
     }
 }
