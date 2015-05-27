@@ -19,7 +19,7 @@
         <ImageView
             android:id="@+id/klantprojecten_image"
             android:layout_width="260dp"
-            android:layout_height="30dp"/>
+            android:layout_height="100dp"/>
 
         <TextView
             android:id="@+id/klantprojecten_text"
