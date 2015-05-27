@@ -199,8 +199,9 @@ public class AfdelingenActivity extends ActionBarActivity implements ActionBar.T
             return rootView;
         }
     }
+
     public void sendEmail() {
-        String TO = this.getString(R.string.email_address);
+        String[] TO = {this.getString(R.string.email_address)};
         String subject = this.getString(R.string.email_subject);
 
         Intent email = new Intent(Intent.ACTION_SEND);

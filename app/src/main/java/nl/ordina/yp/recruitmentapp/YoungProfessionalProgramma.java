@@ -45,8 +45,9 @@ public class YoungProfessionalProgramma extends ActionBarActivity {
         vacatureLink.setData(Uri.parse("http://m.werkenbijordina.nl/nl/mobile/617/jobs?combine=young+professional&field_functiegroep_tid=All&field_region_tid=All"));
         startActivity(vacatureLink);
     }
+
     public void sendEmail() {
-        String TO = this.getString(R.string.email_address);
+        String[] TO = {this.getString(R.string.email_address)};
         String subject = this.getString(R.string.email_subject);
 
         Intent email = new Intent(Intent.ACTION_SEND);
