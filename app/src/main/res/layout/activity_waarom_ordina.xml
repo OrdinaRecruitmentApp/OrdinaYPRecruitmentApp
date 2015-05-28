@@ -36,7 +36,8 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/title_mark_de_munnik"
             android:id="@+id/textView34"
-            android:textSize="12dp"
+            android:textColor="#000000"
+            android:textSize="12sp"
             android:layout_marginBottom="3dp"
         />
 
@@ -58,7 +59,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/text_mark_de_munnik"
                 android:id="@+id/textView33"
-                android:textSize="11sp"
+                android:textSize="12sp"
                 android:textColor="#ffffffff"
                 android:layout_marginStart="5dp"
                 android:layout_marginLeft="5dp"
@@ -71,6 +72,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/title_mark_mulder"
             android:id="@+id/textView35"
+            android:textColor="#000000"
             android:textSize="12sp"
             android:layout_marginBottom="3dp"
 
@@ -89,7 +91,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/text_mark_mulder"
                 android:id="@+id/textView36"
-                android:textSize="11sp"
+                android:textSize="12sp"
                 android:textColor="#ffffffff"
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
@@ -111,7 +113,8 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/title_jalal_mekmassi"
             android:id="@+id/textView37"
-            android:textSize="12dp"
+            android:textColor="#000000"
+            android:textSize="12sp"
             android:layout_marginBottom="3dp"
 
              />
@@ -134,7 +137,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/text_jalal_mekmassi"
                 android:id="@+id/textView38"
-                android:textSize="11dp"
+                android:textSize="12sp"
                 android:textColor="#ffffffff"
                 android:layout_marginLeft="5dp"
                 android:layout_marginStart="5dp"
@@ -147,7 +150,8 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/title_sabrina_wilbrink_podesta"
             android:id="@+id/textView39"
-            android:textSize="12dp"
+            android:textColor="#000000"
+            android:textSize="12sp"
             android:layout_marginBottom="3dp"
              />
 
@@ -162,7 +166,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/text_sabrina_wilbrink_podesta"
                 android:id="@+id/textView40"
-                android:textSize="11sp"
+                android:textSize="12sp"
                 android:layout_weight="1"
                 android:textColor="#ffffffff"
                 android:layout_marginRight="5dp"
@@ -183,6 +187,7 @@
             android:text="@string/title_sergio_taytelbaum"
             android:id="@+id/textView42"
             android:textSize="12sp"
+            android:textColor="#000000"
             android:layout_marginBottom="3dp"/>
 
         <LinearLayout
@@ -202,7 +207,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textSize="11sp"
+            android:textSize="12sp"
             android:textColor="#ffffffff"
             android:layout_marginLeft="5dp"
             android:layout_marginStart="5dp"
@@ -219,6 +224,7 @@
             android:layout_marginBottom="3dp"
             android:text="@string/title_tjeerdjan_nieuwenhuis"
             android:id="@+id/textView45"
+            android:textColor="#000000"
             />
 
         <LinearLayout
@@ -232,7 +238,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/text_tjeerdjan_nieuwenhuis"
                 android:id="@+id/textView46"
-                android:textSize="11sp"
+                android:textSize="12sp"
                 android:textColor="#ffffffff"
                 android:layout_marginRight="5dp"
                 android:layout_marginEnd="5dp"
@@ -254,6 +260,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/title_alwin_tan"
             android:id="@+id/textView41"
+            android:textColor="#000000"
             android:textSize="12sp"
             android:layout_marginBottom="3dp"
              />
@@ -278,7 +285,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text="@string/text_alwin_tan"
                 android:id="@+id/textView43"
-                android:textSize="11sp"
+                android:textSize="12sp"
                 android:textColor="#ffffffff"
                 android:layout_marginLeft="5dp"
                 android:layout_marginStart="5dp"

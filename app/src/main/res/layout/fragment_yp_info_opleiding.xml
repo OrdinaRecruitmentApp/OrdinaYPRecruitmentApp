@@ -11,7 +11,7 @@
         android:background="@drawable/ordina_vlaggen_480_800"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginTop="3dp"
+
         android:minHeight="800dp"
         android:weightSum="1">
 
