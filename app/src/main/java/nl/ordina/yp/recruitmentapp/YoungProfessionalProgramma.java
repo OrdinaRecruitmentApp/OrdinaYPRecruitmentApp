@@ -41,6 +41,8 @@ public class YoungProfessionalProgramma extends ActionBarActivity implements Act
 
         ActionBar actionbar = getSupportActionBar();
         actionbar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#565A5C")));
+        actionbar.setStackedBackgroundDrawable(new ColorDrawable(Color.parseColor("#FF434648")));
+
 
         // Set up the action bar.
         final android.support.v7.app.ActionBar actionBar = getSupportActionBar();

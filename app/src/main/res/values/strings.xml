@@ -188,8 +188,10 @@
     <string name="text_yp_programma6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulpu Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </string>
 
     <string name="title_yp_programma4">Coaching</string>
-    <string name="yp_vacatures">KLIK HIER VOOR DE VACATURES</string>
-    <string name="yp_vacatures2">BEKIJK DE VACATURES</string>
+
+    <string name="yp_vacatures">YOUNG PROFESSIONAL VACATURES</string>
+    <string name="yp_vacatures2">YOUNG PROFESSIONAL VACATURES</string>
+
 
 
     <string name="waarom_ordina_kiezen">WAAROM ORDINA?</string>
