@@ -2,8 +2,10 @@ package nl.ordina.yp.recruitmentapp;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -26,6 +28,8 @@ public class WatDoetOrdinaActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wat_doet_ordina);
+        ActionBar actionbar = getSupportActionBar();
+        actionbar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#565A5C")));
 //        initializeButtons();
     }
 
@@ -64,14 +68,6 @@ public class WatDoetOrdinaActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
-    public void startProjectenActivity(View view) {
-
-//
-//        PopupWindow projectenPopup = new PopupWindow();
-//
-//        Intent intent = new Intent(this, ProjectenActivity.class);
-//        startActivity(intent);
-    }
 
     public void sendEmail() {
         String[] TO = {this.getString(R.string.email_address)};
