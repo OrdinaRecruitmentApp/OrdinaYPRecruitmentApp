@@ -33,14 +33,14 @@ public class KlantenActivity extends ActionBarActivity {
     }
 
     private void initializeProjectLogos() {
-        projectLogos.put(R.id.rabobank, R.drawable.rabobank);
-        projectLogos.put(R.id.ing_bank, R.drawable.ing_bank);
-        projectLogos.put(R.id.eneco, R.drawable.eneco);
-        projectLogos.put(R.id.politie, R.drawable.politie);
-        projectLogos.put(R.id.belastingdienst, R.drawable.belastingdienst);
-        projectLogos.put(R.id.prorail, R.drawable.prorail);
-        projectLogos.put(R.id.ns, R.drawable.ns);
-        projectLogos.put(R.id.ziggo, R.drawable.ziggo_280x214px);
+        projectLogos.put(R.id.rabobank, R.drawable.rabobank_128x128);
+        projectLogos.put(R.id.ing_bank, R.drawable.ing_bank_128x128);
+        projectLogos.put(R.id.eneco, R.drawable.eneco_128x128);
+        projectLogos.put(R.id.politie, R.drawable.politie_128x128);
+        projectLogos.put(R.id.belastingdienst, R.drawable.belastingdienst_128x128);
+        projectLogos.put(R.id.prorail, R.drawable.prorail_128x128);
+        projectLogos.put(R.id.ns, R.drawable.ns_128x128);
+        projectLogos.put(R.id.havenbedrijf_rotterdam, R.drawable.r_v_d_k_128x128);
     }
 
     private void initializeProjectTexts() {
@@ -51,7 +51,7 @@ public class KlantenActivity extends ActionBarActivity {
         projectTexts.put(R.id.belastingdienst, R.string.text_projecten_belastingdienst);
         projectTexts.put(R.id.prorail, R.string.text_projecten_prorail);
         projectTexts.put(R.id.ns, R.string.text_projecten_ns);
-        projectTexts.put(R.id.ziggo, R.string.text_projecten_ziggo);
+        projectTexts.put(R.id.havenbedrijf_rotterdam, R.string.text_projecten_havenbedrijf_rotterdam);
     }
 
     @Override
