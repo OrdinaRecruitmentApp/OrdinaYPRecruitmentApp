@@ -11,7 +11,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import nl.ordina.yp.recruitmentapp.watdoetordina.ProjectenActivity;
 
 
 public class MainActivity extends ActionBarActivity {

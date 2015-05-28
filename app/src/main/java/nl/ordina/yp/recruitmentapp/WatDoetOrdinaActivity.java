@@ -13,7 +13,6 @@ import android.widget.PopupWindow;
 
 import nl.ordina.yp.recruitmentapp.watdoetordina.AfdelingenActivity;
 import nl.ordina.yp.recruitmentapp.watdoetordina.KlantenActivity;
-import nl.ordina.yp.recruitmentapp.watdoetordina.ProjectenActivity;
 
 
 public class WatDoetOrdinaActivity extends ActionBarActivity {

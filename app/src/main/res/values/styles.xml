@@ -9,7 +9,7 @@
     <style name="AppTheme_no_actionbar" parent="Theme.AppCompat.Light.NoActionBar"></style>
 
     <style name="OrdinaButton" parent="android:Widget.Holo.Button">
-        <item name="android:background">#E98300</item>
+        <item name="android:background">@drawable/button_ordina_orange</item>
 
     </style>
 
