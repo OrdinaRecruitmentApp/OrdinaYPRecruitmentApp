@@ -309,7 +309,7 @@
             android:layout_width="match_parent"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="@string/yp_vacatures"
+            android:text="@string/yp_vacatures3"
             android:id="@+id/button_vacatures2"
             android:onClick="goToVacatures"
             android:background="#565A5C"
