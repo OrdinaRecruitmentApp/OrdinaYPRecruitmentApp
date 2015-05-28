@@ -186,6 +186,7 @@
     <string name="yp_vacatures">KLIK HIER VOOR DE VACATURES</string>
     <string name="yp_vacatures2">BEKIJK DE VACATURES</string>
 
+
     <string name="waarom_ordina_kiezen">WAAROM ORDINA?</string>
     <string name="wat_doet_ordina">WAT DOET ORDINA?</string>
     <string name="young_professional_programma">YOUNG PROFESSIONAL PROGRAMMA</string>
@@ -194,5 +195,6 @@
         Ut eni, ad minim veniam, quis nostrud exercitation ullamco laboris
         nisi ut aliquip ex</string>
     <string name="title_activity_project_belastingdienst">projectBelastingdienst</string>
+    <string name="title_activity_splashscreen">Splashscreen</string>
 
 </resources>
