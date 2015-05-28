@@ -1,11 +1,14 @@
 package nl.ordina.yp.recruitmentapp;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -16,10 +19,16 @@ import nl.ordina.yp.recruitmentapp.watdoetordina.ProjectenActivity;
 
 public class MainActivity extends ActionBarActivity {
 
+    protected Dialog mSplashDialog;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        if(StateSplashscreen.firstTimeOpeningApp) {
+            StateSplashscreen.firstTimeOpeningApp = false;
+            showSplashScreen();
+        }
     }
 
     @Override
@@ -54,6 +63,35 @@ public class MainActivity extends ActionBarActivity {
         Intent intent = new Intent(this, YoungProfessionalProgramma.class);
         startActivity(intent);
     }
+// closes the splashscreen
+    protected void removeSplashScreen() {
+        if (mSplashDialog != null) {
+            mSplashDialog.dismiss();
+            mSplashDialog = null;
+        }
+    }
+
+    /**
+     * Shows the splash screen over the full Activity
+     */
+    protected void showSplashScreen() {
+        mSplashDialog = new Dialog(this, R.style.SplashScreen);
+        mSplashDialog.setContentView(R.layout.splashscreen);
+        mSplashDialog.setCancelable(false);
+        mSplashDialog.show();
+
+        // Set Runnable to remove splash screen just in case
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                removeSplashScreen();
+            }
+        }, 2000);
+    }
 }
+
+
+
 
 

@@ -185,5 +185,6 @@
         Ut eni, ad minim veniam, quis nostrud exercitation ullamco laboris
         nisi ut aliquip ex</string>
     <string name="title_activity_project_belastingdienst">projectBelastingdienst</string>
+    <string name="title_activity_splashscreen">Splashscreen</string>
 
 </resources>
