@@ -1,19 +1,20 @@
 <resources>
 
-    //strings menu
-
+    //strings menu email
     <string name="title_email_icon">Email</string>
-    <string name="email_address">tjeerdjannieuwenhuis@gmail.com</string>
+    <string name="email_address">werken@ordina.nl</string>
     <string name="email_subject">Ik heb een vraag</string>
     <string name="email_type">message/rfc822</string>
     <string name="email_choose_message">Choose an Email client :</string>
 
     // strings Waarom Ordina?
-    <string name="title_alwin_tan">ALWIN TAN - (JUNIOR TECHNICAL CONSULTANT)</string>
-    <string name="title_mark_mulder">MARK MULDER - (JUNIOR TECHNICAL CONSULTANT)</string>
-    <string name="title_mark_de_munnik">MARK DE MUNNIK – (JUNIOR TECHNICAL CONSULTANT)</string>
-    <string name="title_jalal_mekmassi">JALAL MEKMASSI– (JUNIOR TECHNICAL CONSULTANT)</string>
-    <string name="title_sabrina_wilbrink_podesta">SABRINA WILBRINK-PODESTA – (JUNIOR TECHNICAL CONSULTANT)</string>
+    <string name="title_alwin_tan">ALWIN TAN (JUNIOR TECHNICAL CONSULTANT)</string>
+    <string name="title_mark_mulder">MARK MULDER (JUNIOR TECHNICAL CONSULTANT)</string>
+    <string name="title_mark_de_munnik">MARK DE MUNNIK (JUNIOR TECHNICAL CONSULTANT)</string>
+    <string name="title_jalal_mekmassi">JALAL MEKMASSI (JUNIOR TECHNICAL CONSULTANT)</string>
+    <string name="title_sabrina_wilbrink_podesta">SABRINA WILBRINK-PODESTA (JUNIOR INFORMATIE ANALIST)</string>
+    <string name="title_tjeerdjan_nieuwenhuis">TJEERDJAN NIEUWENHUIS (JAVA SOFTWARE ENGINEER)</string>
+    <string name="title_sergio_taytelbaum">SERGIO TAYTELBAUM (JAVA SOFTWARE ENGINEER)</string>
 
 
     <string name="text_alwin_tan">“Ik heb Bewegingswetenschappen gestudeerd aan de Vrije Universiteit in Amsterdam.
@@ -36,6 +37,14 @@
         afwisseling, dynamiek en gave projecten waarbij je echt iets kunt betekenen voor bedrijven en voor de mens.
         En dat is precies wat ik bij Ordina gevonden heb. Bovendien sprak de sfeer me direct aan; informeel, creatief en enthousiast.”
     </string>
+    <string name="text_tjeerdjan_nieuwenhuis">“Ordina is een bedrijf dat ook kansen biedt aan mensen die geen traditionele IT-achtergrond hebben.
+        Met mijn studie Geschiedenis was het lastig een baan te vinden.
+        Met Ordina heb ik een werkgever gevonden die mij de tijd en ruimte geeft om me te herscholen in de IT-wereld.“</string>
+    <string name="text_sergio_taytelbaum">“Ik ben afgestudeerd in de Bewegingswetenschappen aan de Vrije Universiteit in Amsterdam.
+        Tijdens de carrièrebeurs viel de open, informele en professionele cultuur van Ordina mij meteen op.
+        De ontwikkelingskansen bij Ordina in de vorm van trainingen en cursussen zijn ideaal voor een ieder die zich wilt blijven ontwikkelen binnen de ICT.
+        Hierdoor was de keuze snel gemaakt en wist ik dat ik bij Ordina moest zijn om persoonlijke doelen te behalen.“</string>
+
 
     <string name="app_name">OrdinaRecruitmentApp</string>
 
@@ -139,10 +148,6 @@
         Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
         om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
     </string>
-    <string name="text_projecten_r_v_d_k">RVDK text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
-        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
-        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
-    </string>
     <string name="text_projecten_ns">NS text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
         Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
         om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
@@ -161,6 +166,8 @@
 
 
     //strings YP programma
+    <string name="title_tab_yp_programma1">Opleiding</string>
+    <string name="title_tab_yp_programma2">Sollicitatieproces</string>
     <string name="title_yp_programma1">2 Jarige opleidingsprogramma</string>
     <string name="text_yp_programma1">6-8 Weken intensieve basisopleiding</string>
     <string name="text_yp_programma2">Persoonlijke groei en zelfregie</string>
@@ -176,6 +183,7 @@
     <string name="title_yp_programma4">Coaching</string>
     <string name="yp_vacatures">KLIK HIER VOOR DE VACATURES</string>
     <string name="yp_vacatures2">BEKIJK DE VACATURES</string>
+
 
     <string name="waarom_ordina_kiezen">WAAROM ORDINA?</string>
     <string name="wat_doet_ordina">WAT DOET ORDINA?</string>
