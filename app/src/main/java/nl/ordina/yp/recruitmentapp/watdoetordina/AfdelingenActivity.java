@@ -1,12 +1,15 @@
 package nl.ordina.yp.recruitmentapp.watdoetordina;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.PagerTabStrip;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
@@ -45,6 +48,9 @@ public class AfdelingenActivity extends ActionBarActivity implements ActionBar.T
         // Set up the action bar.
         final ActionBar actionBar = getSupportActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+        actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#565A5C")));
+        actionBar.setStackedBackgroundDrawable(new ColorDrawable(Color.parseColor("#FF434648")));
+
 
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
@@ -105,6 +111,8 @@ public class AfdelingenActivity extends ActionBarActivity implements ActionBar.T
         // When the given tab is selected, switch to the corresponding page in
         // the ViewPager.
         mViewPager.setCurrentItem(tab.getPosition());
+
+
         //mViewPager.addView();
     }
 
