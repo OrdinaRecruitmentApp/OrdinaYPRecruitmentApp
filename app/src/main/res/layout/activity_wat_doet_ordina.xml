@@ -1,12 +1,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="nl.ordina.yp.recruitmentapp.WatDoetOrdinaActivity"
-    android:background="@drawable/claim_jouw_plek_running_man_480_800"
-    >
+    android:background="@drawable/claim_jouw_plek_running_man_480_800">
+
 
 
 
@@ -15,42 +17,30 @@
         android:layout_height="wrap_content"
         android:text="@string/text_button_afdelingen"
         android:id="@+id/button_afdelingen"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="180dp"
         android:onClick="startAfdelingenActivity"
-        android:background="#E98300"
-        android:minWidth="200dp"
+        android:background="@drawable/button_ordina_orange"
+        android:minWidth="280dp"
         android:textColor="#ffffff"
         android:fontFamily="Arial"
-        />
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button_klanten"
+        android:layout_alignStart="@+id/button_klanten"
+        android:layout_marginTop="200dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/text_button_klanten"
         android:id="@+id/button_klanten"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:onClick="startKlantenActivity"
-        android:background="#E98300"
         android:layout_below="@+id/button_afdelingen"
         android:layout_centerHorizontal="true"
-        android:minWidth="200dp"
-        android:textColor="#ffffff"
-        android:fontFamily="Arial" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_button_projecten"
-        android:id="@+id/button3"
-        android:layout_marginTop="30dp"
-        android:onClick="startProjectenActivity"
-        android:background="#E98300"
-        android:layout_below="@+id/button_klanten"
-        android:layout_centerHorizontal="true"
-        android:minWidth="200dp"
-        android:textColor="#ffffff"
+        android:minWidth="280dp"
         android:fontFamily="Arial"
-        android:enabled="false" />
+        android:background="@drawable/button_ordina_orange"
+        android:textColor="#FFFFFF"/>
+
+
 
 </RelativeLayout>
