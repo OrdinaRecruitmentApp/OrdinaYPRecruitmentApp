@@ -8,14 +8,21 @@
     <string name="email_choose_message">Choose an Email client :</string>
 
     // strings Waarom Ordina?
-    <string name="title_alwin_tan">ALWIN TAN (JUNIOR TECHNICAL CONSULTANT)</string>
-    <string name="title_mark_mulder">MARK MULDER (JUNIOR TECHNICAL CONSULTANT)</string>
-    <string name="title_mark_de_munnik">MARK DE MUNNIK (JUNIOR TECHNICAL CONSULTANT)</string>
-    <string name="title_jalal_mekmassi">JALAL MEKMASSI (JUNIOR TECHNICAL CONSULTANT)</string>
-    <string name="title_sabrina_wilbrink_podesta">SABRINA WILBRINK-PODESTA (JUNIOR INFORMATIE ANALIST)</string>
-    <string name="title_tjeerdjan_nieuwenhuis">TJEERDJAN NIEUWENHUIS (JAVA SOFTWARE ENGINEER)</string>
-    <string name="title_sergio_taytelbaum">SERGIO TAYTELBAUM (JAVA SOFTWARE ENGINEER)</string>
+    <string name="title_alwin_tan">ALWIN TAN</string>
+    <string name="title_mark_mulder">MARK MULDER</string>
+    <string name="title_mark_de_munnik">MARK DE MUNNIK</string>
+    <string name="title_jalal_mekmassi">JALAL MEKMASSI</string>
+    <string name="title_sabrina_wilbrink_podesta">SABRINA WILBRINK-PODESTA</string>
+    <string name="title_tjeerdjan_nieuwenhuis">TJEERDJAN NIEUWENHUIS</string>
+    <string name="title_sergio_taytelbaum">SERGIO TAYTELBAUM</string>
 
+    <string name="title_functie_alwin_tan">JUNIOR TEST CONSULTANT</string>
+    <string name="title_functie_mark_mulder">JUNIOR TEST CONSULTANT</string>
+    <string name="title_functie_mark_de_munnik">JUNIOR TEST CONSULTANT</string>
+    <string name="title_functie_jalal_mekassi">JUNIOR TEST CONSULTANT</string>
+    <string name="title_functie_sabrina_wilbrink_podesta">JUNIOR INFORMATIE ANALIST</string>
+    <string name="title_functie_tjeerdjan_nieuwenhuis">JAVA SOFTWARE ENGINEER</string>
+    <string name="title_functie_sergio_taytelbaum">JAVA SOFTWARE ENGINEER</string>
 
     <string name="text_alwin_tan">“Ik heb Bewegingswetenschappen gestudeerd aan de Vrije Universiteit in Amsterdam.
         Na mijn studie was het moeilijk om een baan te vinden in die sector. Ik heb besloten om mij open te stellen voor alle mogelijkheden.
