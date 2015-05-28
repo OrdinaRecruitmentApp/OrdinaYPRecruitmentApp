@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="nl.ordina.yp.recruitmentapp" >
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -22,13 +21,16 @@
             android:name=".WaaromOrdinaActivity"
             android:label="@string/title_activity_waarom_ordina"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+            >
         </activity>
         <activity
             android:name=".WatDoetOrdinaActivity"
             android:label="@string/title_activity_wat_doet_ordina"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+
+            >
         </activity>
         <activity
             android:name=".YoungProfessionalProgramma"
@@ -51,19 +53,7 @@
             android:parentActivityName=".WatDoetOrdinaActivity"
             android:screenOrientation="portrait" >
         </activity>
-        <activity
-            android:name=".watdoetordina.ProjectenActivity"
-            android:label="@string/title_activity_projecten"
-            android:parentActivityName=".WatDoetOrdinaActivity"
-            android:screenOrientation="portrait" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".WatDoetOrdinaActivity" />
-        </activity>
-        <activity
-            android:name=".watdoetordina.klantprojecten.projectBelastingdienst"
-            android:label="@string/title_activity_project_belastingdienst" >
-        </activity>
+
     </application>
 
 </manifest>
