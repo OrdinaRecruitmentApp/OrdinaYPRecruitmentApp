@@ -8,13 +8,13 @@
     <string name="email_choose_message">Choose an Email client :</string>
 
     // strings Waarom Ordina?
-    <string name="title_alwin_tan">ALWIN TAN - (JUNIOR TECHNICAL CONSULTANT)</string>
-    <string name="title_mark_mulder">MARK MULDER - (JUNIOR TECHNICAL CONSULTANT)</string>
-    <string name="title_mark_de_munnik">MARK DE MUNNIK – (JUNIOR TECHNICAL CONSULTANT)</string>
-    <string name="title_jalal_mekmassi">JALAL MEKMASSI– (JUNIOR TECHNICAL CONSULTANT)</string>
-    <string name="title_sabrina_wilbrink_podesta">SABRINA WILBRINK-PODESTA – (JUNIOR INFORMATIE ANALIST)</string>
-    <string name="title_tjeerdjan_nieuwenhuis">TJEERDJAN NIEUWENHUIS - (JAVA SOFTWARE ENGINEER)</string>
-    <string name="title_sergio_taytelbaum">SERGIO TAYTELBAUM - (JAVA SOFTWARE ENGINEER)</string>
+    <string name="title_alwin_tan">ALWIN TAN (JUNIOR TECHNICAL CONSULTANT)</string>
+    <string name="title_mark_mulder">MARK MULDER (JUNIOR TECHNICAL CONSULTANT)</string>
+    <string name="title_mark_de_munnik">MARK DE MUNNIK (JUNIOR TECHNICAL CONSULTANT)</string>
+    <string name="title_jalal_mekmassi">JALAL MEKMASSI (JUNIOR TECHNICAL CONSULTANT)</string>
+    <string name="title_sabrina_wilbrink_podesta">SABRINA WILBRINK-PODESTA (JUNIOR INFORMATIE ANALIST)</string>
+    <string name="title_tjeerdjan_nieuwenhuis">TJEERDJAN NIEUWENHUIS (JAVA SOFTWARE ENGINEER)</string>
+    <string name="title_sergio_taytelbaum">SERGIO TAYTELBAUM (JAVA SOFTWARE ENGINEER)</string>
 
 
     <string name="text_alwin_tan">“Ik heb Bewegingswetenschappen gestudeerd aan de Vrije Universiteit in Amsterdam.
@@ -37,11 +37,13 @@
         afwisseling, dynamiek en gave projecten waarbij je echt iets kunt betekenen voor bedrijven en voor de mens.
         En dat is precies wat ik bij Ordina gevonden heb. Bovendien sprak de sfeer me direct aan; informeel, creatief en enthousiast.”
     </string>
-    <string name="text_tjeerdjan_nieuwenhuis"></string>
-    <string name="text_sergio_taytelbaum">Ik ben afgestudeerd in de Bewegingswetenschappen aan de Vrije Universiteit in Amsterdam.
+    <string name="text_tjeerdjan_nieuwenhuis">“Ordina is een bedrijf dat ook kansen biedt aan mensen die geen traditionele IT-achtergrond hebben.
+        Met mijn studie Geschiedenis was het lastig een baan te vinden.
+        Met Ordina heb ik een werkgever gevonden die mij de tijd en ruimte geeft om me te herscholen in de IT-wereld.“</string>
+    <string name="text_sergio_taytelbaum">“Ik ben afgestudeerd in de Bewegingswetenschappen aan de Vrije Universiteit in Amsterdam.
         Tijdens de carrièrebeurs viel de open, informele en professionele cultuur van Ordina mij meteen op.
         De ontwikkelingskansen bij Ordina in de vorm van trainingen en cursussen zijn ideaal voor een ieder die zich wilt blijven ontwikkelen binnen de ICT.
-        Hierdoor was de keuze snel gemaakt en wist ik dat ik bij Ordina moest zijn om persoonlijke doelen te behalen.</string>
+        Hierdoor was de keuze snel gemaakt en wist ik dat ik bij Ordina moest zijn om persoonlijke doelen te behalen.“</string>
 
 
     <string name="app_name">OrdinaRecruitmentApp</string>
