@@ -23,7 +23,7 @@
         android:paddingTop="20dp"
         >
 
-        <TextView
+        <!--<TextView
             android:id="@+id/technischview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -189,13 +189,14 @@
             android:layout_below="@+id/textView13"
             android:layout_alignLeft="@+id/textView13"
             android:layout_alignStart="@+id/textView13"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff" />-->
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/title_afdelingen_niet_technisch_anders"
+            android:text="@string/title_afdelingen_niet_technisch_pmo"
             android:id="@+id/textView15"
             android:layout_below="@+id/textView14"
             android:layout_alignLeft="@+id/textView14"
@@ -203,49 +204,74 @@
             android:textColor="#000000"
             android:textStyle="bold" />
 
-        <TextView
+
+        <!--<TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_afdelingen_niet_technisch_anders1"
+            android:text="@string/text_afdelingen_niet_technisch_pmo1"
             android:id="@+id/textView16"
             android:layout_below="@+id/textView15"
             android:layout_alignLeft="@+id/textView15"
             android:layout_alignStart="@+id/textView15"
-            android:textColor="#ffffff"/>
-
+            android:textColor="#ffffff"/>-->
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom">
+            <ImageView android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:paddingRight="5dp"
+                android:paddingTop="1dp"
+                android:src="@drawable/projects"/>
+        </RelativeLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_afdelingen_niet_technisch_anders2"
+            android:text="@string/text_afdelingen_niet_technisch_pmo2"
             android:id="@+id/textView17"
             android:layout_below="@+id/textView16"
             android:layout_alignLeft="@+id/textView16"
             android:layout_alignStart="@+id/textView16"
             android:textColor="#ffffff"/>
+    </LinearLayout>
 
-        <TextView
+        <!--<TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_afdelingen_niet_technisch_anders3"
+            android:text="@string/text_afdelingen_niet_technisch_pmo3"
             android:id="@+id/textView18"
             android:layout_below="@+id/textView17"
             android:layout_alignLeft="@+id/textView17"
             android:layout_alignStart="@+id/textView17"
-            android:textColor="#ffffff"/>
-
+            android:textColor="#ffffff"/>-->
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom">
+            <ImageView android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:paddingTop="1dp"
+                android:src="@drawable/lampje"/>
+        </RelativeLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_afdelingen_niet_technisch_anders4"
+            android:text="@string/text_afdelingen_niet_technisch_pmo4"
             android:id="@+id/textView19"
             android:layout_below="@+id/textView18"
             android:layout_alignLeft="@+id/textView18"
             android:layout_alignStart="@+id/textView18"
             android:textColor="#ffffff"/>
+        </LinearLayout>
+
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

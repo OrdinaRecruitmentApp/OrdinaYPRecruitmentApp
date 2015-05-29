@@ -37,7 +37,7 @@
 
 
 <!--Medewerkers-->
-    <LinearLayout android:layout_width="wrap_content"
+    <!--<LinearLayout android:layout_width="wrap_content"
                   android:layout_height="wrap_content">
         <RelativeLayout android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -59,7 +59,7 @@
             android:layout_alignLeft="@+id/technischview"
             android:layout_alignStart="@+id/technischview"
             android:textColor="#ffffff" />
-    </LinearLayout>
+    </LinearLayout>-->
 
     <!--Projecten-->
     <LinearLayout android:layout_width="wrap_content"
@@ -149,7 +149,7 @@
         />
 
     <!--Medewerkers-->
-    <LinearLayout android:layout_width="wrap_content"
+    <!--<LinearLayout android:layout_width="wrap_content"
                   android:layout_height="wrap_content">
         <RelativeLayout android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -171,7 +171,7 @@
             android:layout_alignLeft="@+id/textView6"
             android:layout_alignStart="@+id/textView6"
             android:textColor="#ffffff"  />
-    </LinearLayout>
+    </LinearLayout>-->
 
     <!--Projecten-->
     <LinearLayout android:layout_width="wrap_content"
@@ -257,7 +257,7 @@
         android:textStyle="bold" />
 
     <!--Medewerkers-->
-    <LinearLayout android:layout_width="wrap_content"
+    <!--<LinearLayout android:layout_width="wrap_content"
                   android:layout_height="wrap_content">
         <RelativeLayout android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -279,7 +279,7 @@
         android:layout_alignStart="@+id/textView10"
         android:textColor="#ffffff"
         />
-        </LinearLayout>
+        </LinearLayout>-->
 
     <!--Projecten-->
     <LinearLayout android:layout_width="wrap_content"
@@ -353,7 +353,7 @@
     </LinearLayout>
 
 
-    <TextView
+    <!--<TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
@@ -363,10 +363,10 @@
         android:layout_alignLeft="@+id/textView14"
         android:layout_alignStart="@+id/textView14"
         android:textColor="#000000"
-        android:textStyle="bold" />
+        android:textStyle="bold" />-->
 
     <!--Medewerkers-->
-    <LinearLayout android:layout_width="wrap_content"
+    <!--<LinearLayout android:layout_width="wrap_content"
                   android:layout_height="wrap_content">
         <RelativeLayout android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -387,10 +387,10 @@
         android:layout_alignLeft="@+id/textView15"
         android:layout_alignStart="@+id/textView15"
         android:textColor="#ffffff"/>
-    </LinearLayout>
+    </LinearLayout>-->
 
     <!--Projecten-->
-    <LinearLayout android:layout_width="wrap_content"
+    <!--<LinearLayout android:layout_width="wrap_content"
                   android:layout_height="wrap_content">
         <RelativeLayout android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -411,10 +411,10 @@
         android:layout_alignLeft="@+id/textView16"
         android:layout_alignStart="@+id/textView16"
         android:textColor="#ffffff"/>
-    </LinearLayout>
+    </LinearLayout>-->
 
     <!--Technieken - Skills-->
-    <LinearLayout android:layout_width="wrap_content"
+    <!--<LinearLayout android:layout_width="wrap_content"
                   android:layout_height="wrap_content">
         <RelativeLayout android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -435,9 +435,9 @@
             android:layout_alignLeft="@+id/textView17"
             android:layout_alignStart="@+id/textView17"
             android:textColor="#ffffff"/>
-    </LinearLayout>
+    </LinearLayout>-->
     <!--Lampje?-->
-    <LinearLayout android:layout_width="wrap_content"
+    <!--<LinearLayout android:layout_width="wrap_content"
                   android:layout_height="wrap_content">
         <RelativeLayout android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -458,7 +458,7 @@
         android:layout_alignLeft="@+id/textView18"
         android:layout_alignStart="@+id/textView18"
         android:textColor="#ffffff"/>
-    </LinearLayout>>
+    </LinearLayout>-->
 
 
 
