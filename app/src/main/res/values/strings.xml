@@ -166,21 +166,35 @@
 
 
     //strings YP programma
-    <string name="title_tab_yp_programma1">Opleiding</string>
+    <string name="title_tab_yp_programma1">Inhoud</string>
     <string name="title_tab_yp_programma2">Sollicitatieproces</string>
-    <string name="title_yp_programma1">2 Jarige opleidingsprogramma</string>
-    <string name="text_yp_programma1">6-8 Weken intensieve basisopleiding</string>
-    <string name="text_yp_programma2">Persoonlijke groei en zelfregie</string>
-    <string name="text_yp_programma3">Trainingen worden verzorgd door ervaren docenten van de Ordina Academy</string>
+    <string name="title_yp_programma1">ONTWIKKELPROGRAMMA</string>
+    <string name="text_yp_programma1">•	Tweejarig ontwikkelprogramma</string>
+    <string name="text_yp_programma2">•	Een intensieve basisopleiding van 6-8 weken</string>
+    <string name="text_yp_programma3">•	Een vliegende start van je carrière</string>
+    <string name="text_yp_programma3b">• Voor en door Ordina</string>
+    <string name="text_yp_programma3c">• Individueel en groepsgewijs leren</string>
+
 
     <string name="title_yp_programma2">Leuk om te weten</string>
-    <string name="text_yp_programma4">Young professionals ontwikkelen zich tot vakinhoudelijke professionals die het verschil maken</string>
-    <string name="text_yp_programma5">Sinds 2011 heeft Ordina al meer dan 90 Young Professionals opgeleid!</string>
+    <string name="text_yp_programma4">•	Agile</string>
+    <string name="text_yp_programma5">•	Lean Foundation</string>
+    <string name="text_yp_programma5b">• Prince2</string>
+    <string name="text_yp_programma5c">• NLP Foundation</string>
+    <string name="text_yp_programma5d">• Personal Branding</string>
+    <string name="text_yp_programma5e">• Uiteraard haal je ook je certificeringen voor jouw vakgebied</string>
 
-    <string name="title_yp_programma3">Opdrachten</string>
-    <string name="text_yp_programma6">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulpu Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </string>
+    <string name="title_yp_programma3">OPLEIDINGEN</string>
+    <string name="title_yp_programma3b">COACHING</string>
 
-    <string name="title_yp_programma4">Coaching</string>
+    &#xD;
+
+    <string name="text_yp_programma6">•	Twee jaar lang een coach (naast je manager) die je begeleid tijdens trainingen en opdrachten bij de klant</string>
+
+    <string name="title_yp_programma4">LEUK OM TE WETEN</string>
+
+    <string name="text_yp_programma6b">• Meer dan 150 Young Professionals zijn je afgelopen jaar voorgegaan\n• Veel terugkomdagen samen met andere Young Professionals\n• Tijdens het programma ga je al aan de slag bij klanten
+</string>
 
     <string name="yp_vacatures">YOUNG PROFESSIONAL VACATURES</string>
     <string name="yp_vacatures2">YOUNG PROFESSIONAL VACATURES</string>

@@ -12,7 +12,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/sollicitatieproces480x800v3"
+            android:background="@drawable/sollicitatieprocesv5"
             android:adjustViewBounds="true"
 
             />
