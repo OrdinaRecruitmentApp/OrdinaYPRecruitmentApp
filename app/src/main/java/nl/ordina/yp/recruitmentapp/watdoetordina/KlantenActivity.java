@@ -36,25 +36,25 @@ public class KlantenActivity extends ActionBarActivity {
     }
 
     private void initializeProjectLogos() {
-        projectLogos.put(R.id.rabobank, R.drawable.rabobank_128x128);
-        projectLogos.put(R.id.ing_bank, R.drawable.ing_bank_128x128);
-        projectLogos.put(R.id.eneco, R.drawable.eneco_128x128);
+        //projectLogos.put(R.id.rabobank, R.drawable.rabobank_128x128);
+        //projectLogos.put(R.id.ing_bank, R.drawable.ing_bank_128x128);
+        //projectLogos.put(R.id.eneco, R.drawable.eneco_128x128);
         projectLogos.put(R.id.politie, R.drawable.politie_128x128);
-        projectLogos.put(R.id.belastingdienst, R.drawable.belastingdienst_128x128);
+        //projectLogos.put(R.id.belastingdienst, R.drawable.belastingdienst_128x128);
         projectLogos.put(R.id.prorail, R.drawable.prorail_128x128);
-        projectLogos.put(R.id.ns, R.drawable.ns_128x128);
-        projectLogos.put(R.id.havenbedrijf_rotterdam, R.drawable.r_v_d_k_128x128);
+        //projectLogos.put(R.id.ns, R.drawable.ns_128x128);
+        //projectLogos.put(R.id.havenbedrijf_rotterdam, R.drawable.r_v_d_k_128x128);
     }
 
     private void initializeProjectTexts() {
-        projectTexts.put(R.id.rabobank, R.string.text_projecten_rabobank);
-        projectTexts.put(R.id.ing_bank, R.string.text_projecten_ing);
-        projectTexts.put(R.id.eneco, R.string.text_projecten_eneco);
+        //projectTexts.put(R.id.rabobank, R.string.text_projecten_rabobank);
+        //projectTexts.put(R.id.ing_bank, R.string.text_projecten_ing);
+        //projectTexts.put(R.id.eneco, R.string.text_projecten_eneco);
         projectTexts.put(R.id.politie, R.string.text_projecten_politie);
-        projectTexts.put(R.id.belastingdienst, R.string.text_projecten_belastingdienst);
+        //projectTexts.put(R.id.belastingdienst, R.string.text_projecten_belastingdienst);
         projectTexts.put(R.id.prorail, R.string.text_projecten_prorail);
-        projectTexts.put(R.id.ns, R.string.text_projecten_ns);
-        projectTexts.put(R.id.havenbedrijf_rotterdam, R.string.text_projecten_havenbedrijf_rotterdam);
+        //projectTexts.put(R.id.ns, R.string.text_projecten_ns);
+        //projectTexts.put(R.id.havenbedrijf_rotterdam, R.string.text_projecten_havenbedrijf_rotterdam);
     }
 
     @Override
