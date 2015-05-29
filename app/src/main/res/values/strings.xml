@@ -53,7 +53,7 @@
         Hierdoor was de keuze snel gemaakt en wist ik dat ik bij Ordina moest zijn om persoonlijke doelen te behalen.“</string>
 
 
-    <string name="app_name">OrdinaRecruitmentApp</string>
+    <string name="app_name">Ordina Young Professionals</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -80,25 +80,25 @@
     // strings afdelingen technisch
     <string name="title_afdelingen_technisch_java" >JAVA</string>
     <string name="text_afdelingen_technisch_java1">250 medewerkers &amp; 30 Young Professionals</string>
-    <string name="text_afdelingen_technisch_java2">Klanten: The Voice of Holland, Rabobank, gemeente Amsterdam</string>
-    <string name="text_afdelingen_technisch_java3">Methoden: Spring, JPA, Hibernate, Agile &amp; Scrum</string>
+    <string name="text_afdelingen_technisch_java2">The Voice of Holland, Rabobank, gemeente Amsterdam</string>
+    <string name="text_afdelingen_technisch_java3">Spring, JPA, Hibernate, Agile &amp; Scrum</string>
     <string name="text_afdelingen_technisch_java4">Certificering: Oracle (OCA/OCP)</string>
 
     <string name="title_afdelingen_technisch_microsoft">MICROSOFT</string>
     <string name="text_afdelingen_technisch_microsoft1">135 medewerkers &amp; 25 Young Professionals</string>
-    <string name="text_afdelingen_technisch_microsoft2">Klanten: Logius, Rabobank, Gemeente Amsterdam</string>
-    <string name="text_afdelingen_technisch_microsoft3">Techniek: .Net programming, Agile Foundation</string>
+    <string name="text_afdelingen_technisch_microsoft2">Logius, Rabobank, Gemeente Amsterdam</string>
+    <string name="text_afdelingen_technisch_microsoft3">.Net programming, Agile Foundation</string>
     <string name="text_afdelingen_technisch_microsoft4">Certificering: Microsoft Technology Associate (MTA)</string>
 
-    <string name="title_afdelingen_technisch_testing">Testing</string>
+    <string name="title_afdelingen_technisch_testing">TESTING</string>
     <string name="text_afdelingen_technisch_testing1">135 medewerkers &amp; 25 Young Professionals></string>
-    <string name="text_afdelingen_technisch_testing2">Klanten: Rabobank</string>
-    <string name="text_afdelingen_technisch_testing3">Techniek: HTML/XML/SOA, SQL</string>
+    <string name="text_afdelingen_technisch_testing2">Rabobank</string>
+    <string name="text_afdelingen_technisch_testing3">HTML/XML/SOA, SQL</string>
     <string name="text_afdelingen_technisch_testing4">Certificering: Tmap Next, Agile Foundation</string>
 
     <string name="title_afdelingen_technisch_opsengineer">OPS-engineer</string>
     <string name="text_afdelingen_technisch_ops1">135 medewerkers &amp; 25 Young Professionals</string>
-    <string name="text_afdelingen_technisch_ops2">Klanten: Rabobank, Min. Binnenlandse Zaken, ...</string>
+    <string name="text_afdelingen_technisch_ops2">Rabobank, Min. Binnenlandse Zaken, ...</string>
     <string name="text_afdelingen_technisch_ops3">Shell-scripting, Python, Puppet, Tomcat</string>
     <string name="text_afdelingen_technisch_ops4">Blah, blah, blah</string>
 
@@ -123,7 +123,7 @@
 
     <string name="title_afdelingen_niet_technisch_pmo">PMO</string>
     <string name="text_afdelingen_niet_technisch_pmo1"></string>
-    <string name="text_afdelingen_niet_technisch_pmo2">Klanten: Havenbedrijf Rotterdam, Achmea, Gemeente Amsterdam </string>
+    <string name="text_afdelingen_niet_technisch_pmo2">Havenbedrijf Rotterdam, Achmea, Gemeente Amsterdam </string>
     <string name="text_afdelingen_niet_technisch_pmo3"></string>
     <string name="text_afdelingen_niet_technisch_pmo4">Certificering:PMO Foundation, Prince2, ITIL</string>
 
