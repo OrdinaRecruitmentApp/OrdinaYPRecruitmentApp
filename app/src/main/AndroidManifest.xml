@@ -43,13 +43,13 @@
         </activity>
         <activity
             android:name=".watdoetordina.AfdelingenActivity"
-            android:label="@string/title_activity_afdelingen"
+            android:label="@string/text_afdelingen"
             android:parentActivityName=".WatDoetOrdinaActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".watdoetordina.KlantenActivity"
-            android:label="@string/title_activity_klanten"
+            android:label="@string/text_afdelingen"
             android:parentActivityName=".WatDoetOrdinaActivity"
             android:screenOrientation="portrait" >
         </activity>
