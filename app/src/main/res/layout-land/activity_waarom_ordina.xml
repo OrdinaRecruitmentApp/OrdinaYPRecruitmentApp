@@ -43,7 +43,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/title_functie_mark_de_munnik"
+            android:text="@string/title_functie_junior_test_consultant"
             android:textColor="#000000"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_marginBottom="3dp"
@@ -88,7 +88,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/title_functie_mark_mulder"
+            android:text="@string/title_functie_junior_test_consultant"
             android:textColor="#000000"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_marginBottom="3dp"
@@ -134,7 +134,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/title_functie_jalal_mekassi"
+            android:text="@string/title_functie_junior_test_consultant"
             android:textColor="#000000"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_marginBottom="3dp"
@@ -220,7 +220,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/title_functie_sergio_taytelbaum"
+            android:text="@string/title_functie_java_software_engineer"
             android:textColor="#000000"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_marginBottom="3dp"
@@ -263,7 +263,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/title_functie_tjeerdjan_nieuwenhuis"
+            android:text="@string/title_functie_java_software_engineer"
             android:textColor="#000000"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_marginBottom="3dp"
@@ -307,7 +307,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/title_functie_alwin_tan"
+            android:text="@string/title_functie_junior_test_consultant"
             android:textColor="#000000"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_marginBottom="3dp"
@@ -357,7 +357,7 @@
             android:layout_width="match_parent"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="@string/yp_vacatures2"
+            android:text="@string/yp_vacatures"
             android:id="@+id/button_vacatures2"
             android:onClick="goToVacatures"
             android:background="#565A5C"
