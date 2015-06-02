@@ -1,5 +1,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="0dp"
     android:paddingRight="0dp"
@@ -10,410 +11,393 @@
     android:background="#e98300">
 
 
-
     <ScrollView
         android:id="@+id/scrollableContents"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
 
-    <LinearLayout android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="3dp"
-        android:minHeight="800dp"
-        android:weightSum="1"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_horizontal_margin"
-        android:paddingBottom="@dimen/activity_horizontal_margin">
-        <TextView
-
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/title_waarom_ordina_koptekst"
-            android:id="@+id/textView0"
-            android:textColor="#FFFFFF"
+            android:orientation="vertical"
+            android:layout_marginTop="3dp"
+            android:minHeight="800dp"
+            android:weightSum="1"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:paddingBottom="@dimen/activity_horizontal_margin">
 
+            <TextView
 
-<<<<<<< HEAD
-            />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/title_waarom_ordina_koptekst"
+                android:id="@+id/textView0"
+                android:textColor="#FFFFFF" />
 
-        <TextView
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/title_mark_de_munnik"
-            android:id="@+id/textView34"
-            android:textColor="#000000"
-
-=======
->>>>>>> fec31a51a075f25d5cacdee4c49b2d71908625c0
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
-            >
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:id="@+id/imageViewWaaromOrdinaMarkDeMunnik"
-                android:src="@drawable/markdemunnink"    />
             <TextView
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="@string/title_mark_de_munnik"
-                android:id="@+id/textViewWaaromOrdinaTitleMarkDeMunnik"
-                android:textColor="#000000"
-                android:textSize="14sp"
-                android:paddingLeft="10dp"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="16dp"
-                />
-            <TextView
+                android:id="@+id/textView34"
+                android:textColor="#000000"/>
+
+            <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/title_functie_junior_test_consultant"
-                android:textColor="#000000"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:layout_marginBottom="3dp"
-                android:textStyle="italic"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="36dp"/>
+                android:layout_marginBottom="4dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/imageViewWaaromOrdinaMarkDeMunnik"
+                    android:src="@drawable/markdemunnink" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/title_mark_de_munnik"
+                    android:id="@+id/textViewWaaromOrdinaTitleMarkDeMunnik"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:paddingLeft="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_functie_junior_test_consultant"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_marginBottom="3dp"
+                    android:textStyle="italic"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="36dp" />
 
 
-        </RelativeLayout>
+            </RelativeLayout>
 
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_mark_de_munnik"
-            android:id="@+id/textViewWaaromOrdinaTextMarkDeMunnik"
-            android:textColor="#ffffff"
-            android:layout_marginBottom="20dp"  />
-
-
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="@string/title_mark_mulder"
-                android:id="@+id/textViewWaaromOrdinaTitleMarkMulder"
-                android:textColor="#000000"
-                android:textSize="14sp"
-                android:layout_marginTop="16dp"
-                android:layout_weight="0.9"
-
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/title_functie_junior_test_consultant"
-                android:textColor="#000000"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:layout_marginBottom="3dp"
-                android:textStyle="italic"
-                android:id="@+id/textViewWaaromOrdinaFunctieMarkMulder"
-                android:layout_marginTop="36dp"
-                />
-
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:id="@+id/imageViewWaaromOrdinaMarkMulder"
-                android:src="@drawable/markmulder"
-                android:layout_weight="0.1"
-                android:layout_alignParentRight="true"
-
-                />
-        </RelativeLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_mark_mulder"
-            android:id="@+id/textViewWaaromOrdinaTextMarkMulder"
-
-            android:textColor="#ffffffff"
-            android:layout_weight="1"
-            android:layout_marginRight="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginBottom="20dp" />
-
-
-
-        // Jalal
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp">
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:id="@+id/imageViewWaaromOrdinaJalalMekmassi"
-                android:src="@drawable/jalalmekmassi"
-                />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="@string/title_jalal_mekmassi"
-                android:id="@+id/textViewWaaromOrdinaTitleJalalMekmassi"
-                android:textColor="#000000"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="16dp"
-                />
-            <TextView
+                android:text="@string/text_mark_de_munnik"
+                android:id="@+id/textViewWaaromOrdinaTextMarkDeMunnik"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="20dp" />
+
+
+            <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/title_functie_junior_test_consultant"
-                android:textColor="#000000"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:layout_marginBottom="3dp"
-                android:textStyle="italic"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="36dp"/>
+                android:layout_marginBottom="4dp">
 
-        </RelativeLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/title_mark_mulder"
+                    android:id="@+id/textViewWaaromOrdinaTitleMarkMulder"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="0.9"
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_jalal_mekmassi"
-            android:id="@+id/textViewWaaromOrdinaTextJalalMekmassi"
-            android:textColor="#ffffffff"
-            android:layout_marginLeft="5dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginBottom="20dp" />
+                    />
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="@string/title_sabrina_wilbrink_podesta"
-                android:id="@+id/textViewWaaromOrdinaTitleSabrinaWilbrink"
-                android:textColor="#000000"
-                android:layout_marginTop="16dp"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/title_functie_junior_test_consultant"
-                android:textColor="#000000"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:layout_marginBottom="3dp"
-                android:textStyle="italic"
-                android:layout_marginTop="36dp" />
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:id="@+id/imageViewWaaromOrdinaSabrinaWilbrink"
-                android:src="@drawable/sabrina"
-                android:layout_alignParentRight="true"
-                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_functie_junior_test_consultant"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_marginBottom="3dp"
+                    android:textStyle="italic"
+                    android:id="@+id/textViewWaaromOrdinaFunctieMarkMulder"
+                    android:layout_marginTop="36dp" />
 
 
-        </RelativeLayout>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/imageViewWaaromOrdinaMarkMulder"
+                    android:src="@drawable/markmulder"
+                    android:layout_weight="0.1"
+                    android:layout_alignParentRight="true"
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_sabrina_wilbrink_podesta"
-            android:id="@+id/textViewWaaromOrdinaTextSabrinaWilbrink"
-
-            android:layout_weight="1"
-            android:textColor="#ffffffff"
-            android:layout_marginRight="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginBottom="10dp"
-            android:paddingBottom="20dp"/>
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp">
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:id="@+id/imageViewWaaromOrdinaSergioTaytelbaum"
-                android:src="@drawable/sergiotaytelbaum"
-                />
+                    />
+            </RelativeLayout>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="@string/title_sergio_taytelbaum"
-                android:id="@+id/textViewWaaromOrdinaTitleSergioTaytelbaum"
-                android:layout_alignParentRight="true"
-                android:textColor="#000000"
-                android:layout_marginTop="16dp"
-                />
-            <TextView
+                android:text="@string/text_mark_mulder"
+                android:id="@+id/textViewWaaromOrdinaTextMarkMulder"
+
+                android:textColor="#ffffffff"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="20dp" />
+
+
+            // Jalal
+
+            <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/title_functie_java_software_engineer"
-                android:textColor="#000000"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:layout_marginBottom="3dp"
-                android:textStyle="italic"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="36dp"/>
+                android:layout_marginBottom="4dp">
 
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/imageViewWaaromOrdinaJalalMekmassi"
+                    android:src="@drawable/jalalmekmassi" />
 
-        </RelativeLayout>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/title_jalal_mekmassi"
+                    android:id="@+id/textViewWaaromOrdinaTitleJalalMekmassi"
+                    android:textColor="#000000"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="16dp" />
 
-            android:textColor="#ffffffff"
-            android:layout_marginLeft="5dp"
-            android:layout_marginStart="5dp"
-            android:text="@string/text_sergio_taytelbaum"
-            android:paddingBottom="20dp"
-            android:id="@+id/textViewWaaromOrdinaTextSergioTaytelbaum"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_functie_junior_test_consultant"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_marginBottom="3dp"
+                    android:textStyle="italic"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="36dp" />
 
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="@string/title_tjeerdjan_nieuwenhuis"
-                android:id="@+id/textViewWaaromOrdinaTitleTjeerdjanNieuwenhuis"
-                android:textColor="#000000"
-                android:layout_marginTop="16dp"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/title_functie_java_software_engineer"
-                android:textColor="#000000"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:layout_marginBottom="3dp"
-                android:textStyle="italic"
-                android:layout_marginTop="36dp"/>
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:id="@+id/imageViewWaaromOrdinaTjeerdjanNieuwenhuis"
-                android:src="@drawable/tjeerdjannieuwenhuis"
-                android:layout_alignParentRight="true"
-                />
-
-        </RelativeLayout>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_tjeerdjan_nieuwenhuis"
-            android:id="@+id/textViewWaaromOrdinaTextTjeerdjanNieuwenhuis"
-
-            android:textColor="#ffffffff"
-            android:layout_marginRight="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_weight="1"
-            android:paddingBottom="20dp"
-            />
-
-        //
-
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp">
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:id="@+id/imageViewWaaromOrdinaAlwinTan"
-                android:src="@drawable/alwintan"
-                />
+            </RelativeLayout>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="@string/title_alwin_tan"
-                android:id="@+id/textViewWaaromOrdinaTitleAlwinTan"
-                android:textColor="#000000"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="16dp"
-                />
+                android:text="@string/text_jalal_mekmassi"
+                android:id="@+id/textViewWaaromOrdinaTextJalalMekmassi"
+                android:textColor="#ffffffff"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="20dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/title_sabrina_wilbrink_podesta"
+                    android:id="@+id/textViewWaaromOrdinaTitleSabrinaWilbrink"
+                    android:textColor="#000000"
+                    android:layout_marginTop="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_functie_junior_test_consultant"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_marginBottom="3dp"
+                    android:textStyle="italic"
+                    android:layout_marginTop="36dp" />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/imageViewWaaromOrdinaSabrinaWilbrink"
+                    android:src="@drawable/sabrina"
+                    android:layout_alignParentRight="true" />
+
+
+            </RelativeLayout>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/title_functie_junior_test_consultant"
-                android:textColor="#000000"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:layout_marginBottom="3dp"
-                android:textStyle="italic"
-                android:layout_alignParentRight="true"
-                android:layout_marginTop="36dp"/>
+                android:text="@string/text_sabrina_wilbrink_podesta"
+                android:id="@+id/textViewWaaromOrdinaTextSabrinaWilbrink"
 
-        </RelativeLayout>
+                android:layout_weight="1"
+                android:textColor="#ffffffff"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="20dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_alwin_tan"
-            android:id="@+id/textViewWaaromOrdinaTextAlwinTan"
-            android:textColor="#ffffffff"
-            android:layout_marginLeft="5dp"
-            android:layout_marginStart="5dp"
-            android:paddingBottom="60dp"
-            android:layout_weight="1"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/imageViewWaaromOrdinaSergioTaytelbaum"
+                    android:src="@drawable/sergiotaytelbaum" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/title_sergio_taytelbaum"
+                    android:id="@+id/textViewWaaromOrdinaTitleSergioTaytelbaum"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#000000"
+                    android:layout_marginTop="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_functie_java_software_engineer"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_marginBottom="3dp"
+                    android:textStyle="italic"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="36dp" />
 
 
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+
+                android:textColor="#ffffffff"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:text="@string/text_sergio_taytelbaum"
+                android:paddingBottom="20dp"
+                android:id="@+id/textViewWaaromOrdinaTextSergioTaytelbaum" />
 
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/title_tjeerdjan_nieuwenhuis"
+                    android:id="@+id/textViewWaaromOrdinaTitleTjeerdjanNieuwenhuis"
+                    android:textColor="#000000"
+                    android:layout_marginTop="16dp" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_functie_java_software_engineer"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_marginBottom="3dp"
+                    android:textStyle="italic"
+                    android:layout_marginTop="36dp" />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/imageViewWaaromOrdinaTjeerdjanNieuwenhuis"
+                    android:src="@drawable/tjeerdjannieuwenhuis"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/text_tjeerdjan_nieuwenhuis"
+                android:id="@+id/textViewWaaromOrdinaTextTjeerdjanNieuwenhuis"
+
+                android:textColor="#ffffffff"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:paddingBottom="20dp" />
+
+            //
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/imageViewWaaromOrdinaAlwinTan"
+                    android:src="@drawable/alwintan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/title_alwin_tan"
+                    android:id="@+id/textViewWaaromOrdinaTitleAlwinTan"
+                    android:textColor="#000000"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_functie_junior_test_consultant"
+                    android:textColor="#000000"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_marginBottom="3dp"
+                    android:textStyle="italic"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="36dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/text_alwin_tan"
+                android:id="@+id/textViewWaaromOrdinaTextAlwinTan"
+                android:textColor="#ffffffff"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:paddingBottom="60dp"
+                android:layout_weight="1" />
 
 
         </LinearLayout>
     </ScrollView>
 
-        <RelativeLayout
+    <RelativeLayout
         android:id="@+id/footer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:gravity="center" >
+        android:gravity="center">
 
         <Button
             android:layout_width="wrap_content"
@@ -440,5 +424,5 @@
             android:layout_weight="0.35" />
 
 
-        </RelativeLayout>
     </RelativeLayout>
+</RelativeLayout>
