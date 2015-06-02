@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="nl.ordina.yp.recruitmentapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,16 +24,13 @@
             android:name=".WaaromOrdinaActivity"
             android:label="@string/title_activity_waarom_ordina"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait"
-            >
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".WatDoetOrdinaActivity"
             android:label="@string/title_activity_wat_doet_ordina"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait"
-
-            >
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".YoungProfessionalProgramma"
@@ -53,7 +53,14 @@
             android:parentActivityName=".WatDoetOrdinaActivity"
             android:screenOrientation="portrait" >
         </activity>
-
+        <activity
+            android:name=".FacebookEvenementenActivity"
+            android:label="@string/title_activity_facebook_evenementen"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nl.ordina.yp.recruitmentapp.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -62,6 +62,12 @@ public class MainActivity extends ActionBarActivity {
         Intent intent = new Intent(this, YoungProfessionalProgramma.class);
         startActivity(intent);
     }
+
+    public void startEvenementenActivity(View view){
+        Intent intent = new Intent(this, FacebookEvenementenActivity.class);
+        startActivity(intent);
+    }
+
 // closes the splashscreen
     protected void removeSplashScreen() {
         if (mSplashDialog != null) {
