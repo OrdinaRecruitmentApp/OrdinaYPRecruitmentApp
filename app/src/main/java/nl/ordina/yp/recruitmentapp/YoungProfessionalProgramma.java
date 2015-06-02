@@ -210,6 +210,9 @@ public class YoungProfessionalProgramma extends ActionBarActivity implements Act
         startActivity(vacatureLink);
     }
 
+
+
+
     public void sendEmail() {
         String[] TO = {this.getString(R.string.email_address)};
         String subject = this.getString(R.string.email_subject);
