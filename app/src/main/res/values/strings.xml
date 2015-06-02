@@ -8,6 +8,7 @@
     <string name="email_choose_message">Choose an Email client :</string>
 
     // strings Waarom Ordina?
+    <string name="title_waarom_ordina_koptekst">DEZE YOUNG PROFESSIONALS VERTELLEN HET JOU GRAAG.\n</string>
     <string name="title_alwin_tan">ALWIN TAN</string>
     <string name="title_mark_mulder">MARK MULDER</string>
     <string name="title_mark_de_munnik">MARK DE MUNNIK</string>
@@ -132,7 +133,7 @@ gerichte training
     <string name="klanten_activity_text">Ordina is de grootste, onafhankelijke ICT-dienstverlener in de Benelux met ruim 2.900 medewerkers.
         Wij bedenken, bouwen en beheren ICT-toepassingen bij de overheid, in de financiële dienstverlening, de industrie en de zorg.
         Wij streven naar ICT die mensen écht verder helpt. ICT die er toe doet en die tot stand is gekomen zonder verspilling van middelen.
-        Dat doen wij door samen met onze klanten duurzaam te innoveren.</string>
+        Dat doen wij door samen met onze klanten duurzaam te innoveren.\n\n<i>Klik op een logo voor meer info.</i></string>
 
     <string name="text_lorem_ipsum">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
         Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
