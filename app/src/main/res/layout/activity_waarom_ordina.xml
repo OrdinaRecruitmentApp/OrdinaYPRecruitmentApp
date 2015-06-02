@@ -38,14 +38,6 @@
                 android:id="@+id/textView0"
                 android:textColor="#FFFFFF" />
 
-            <TextView
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="@string/title_mark_de_munnik"
-                android:id="@+id/textView34"
-                android:textColor="#000000"/>
 
             <RelativeLayout
                 android:layout_width="wrap_content"
