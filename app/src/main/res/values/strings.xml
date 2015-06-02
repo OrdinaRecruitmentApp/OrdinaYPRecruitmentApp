@@ -16,13 +16,9 @@
     <string name="title_tjeerdjan_nieuwenhuis">TJEERDJAN NIEUWENHUIS</string>
     <string name="title_sergio_taytelbaum">SERGIO TAYTELBAUM</string>
 
-    <string name="title_functie_alwin_tan">JUNIOR TEST CONSULTANT</string>
-    <string name="title_functie_mark_mulder">JUNIOR TEST CONSULTANT</string>
-    <string name="title_functie_mark_de_munnik">JUNIOR TEST CONSULTANT</string>
-    <string name="title_functie_jalal_mekassi">JUNIOR TEST CONSULTANT</string>
+    <string name="title_functie_junior_test_consultant">JUNIOR TEST CONSULTANT</string>
     <string name="title_functie_sabrina_wilbrink_podesta">JUNIOR INFORMATIE ANALIST</string>
-    <string name="title_functie_tjeerdjan_nieuwenhuis">JAVA SOFTWARE ENGINEER</string>
-    <string name="title_functie_sergio_taytelbaum">JAVA SOFTWARE ENGINEER</string>
+    <string name="title_functie_java_software_engineer">JAVA SOFTWARE ENGINEER</string>
 
     <string name="text_alwin_tan">“Ik heb Bewegingswetenschappen gestudeerd aan de Vrije Universiteit in Amsterdam.
         Na mijn studie was het moeilijk om een baan te vinden in die sector. Ik heb besloten om mij open te stellen voor alle mogelijkheden.
@@ -54,31 +50,22 @@
 
 
     <string name="app_name">Ordina Young Professionals</string>
-
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
     <string name="title_activity_waarom_ordina">WAAROM ORDINA?</string>
     <string name="title_activity_wat_doet_ordina">WAT DOET ORDINA?</string>
     <string name="title_activity_young_professional_programma">YP PROGRAMMA</string>
 
-
-
     <string name="young_professionals">Young Professionals</string>
 
-    <string name="text_button_afdelingen">AFDELINGEN</string>
-    <string name="text_button_klanten">KLANTEN</string>
-    <string name="text_button_projecten">PROJECTEN</string>
-    <string name="title_activity_afdelingen">AFDELINGEN</string>
-    <string name="title_activity_klanten">KLANTEN</string>
-    <string name="title_activity_projecten">PROJECTEN</string>
+    <string name="text_afdelingen">AFDELINGEN</string>
+    <string name="text_klanten">KLANTEN</string>
+    <string name="text_projecten">PROJECTEN</string>
     <string name="title_tab_afdelingen_technisch">TECHNISCH</string>
     <string name="title_tab_afdelingen_niet_technisch">NIET TECHNISCH</string>
 
-
-
     // strings afdelingen technisch
-    <string name="title_afdelingen_technisch_java" >JAVA</string>
+    <string name="title_afdelingen_technisch_java">JAVA</string>
     <string name="text_afdelingen_technisch_java1">250 medewerkers &amp; 30 Young Professionals</string>
     <string name="text_afdelingen_technisch_java2">The Voice of Holland, Rabobank, gemeente Amsterdam</string>
     <string name="text_afdelingen_technisch_java3">Spring, JPA, Hibernate, Agile &amp; Scrum</string>
@@ -96,31 +83,7 @@
     <string name="text_afdelingen_technisch_testing3">HTML/XML/SOA, SQL</string>
     <string name="text_afdelingen_technisch_testing4">Certificering: Tmap Next, Agile Foundation</string>
 
-    <string name="title_afdelingen_technisch_opsengineer">OPS-engineer</string>
-    <string name="text_afdelingen_technisch_ops1">135 medewerkers &amp; 25 Young Professionals</string>
-    <string name="text_afdelingen_technisch_ops2">Rabobank, Min. Binnenlandse Zaken, ...</string>
-    <string name="text_afdelingen_technisch_ops3">Shell-scripting, Python, Puppet, Tomcat</string>
-    <string name="text_afdelingen_technisch_ops4">Blah, blah, blah</string>
-
     // strings afdelingen niet technisch
-    <string name="title_afdelingen_niet_technisch_sales" >Sales</string>
-    <string name="text_afdelingen_niet_technisch_sales1">Blah, blah, blah</string>
-    <string name="text_afdelingen_niet_technisch_sales2">Blah, blah, blah, blah</string>
-    <string name="text_afdelingen_niet_technisch_sales3">Blah, blah, blah, blah</string>
-    <string name="text_afdelingen_niet_technisch_sales4">Blah, blah, blah, blah</string>
-
-    <string name="title_afdelingen_niet_technisch_recruitment">Recruitment</string>
-    <string name="text_afdelingen_niet_technisch_recruitment1">Blah, blah, blah, blah</string>
-    <string name="text_afdelingen_niet_technisch_recruitment2">Blah, blah, blah, blah</string>
-    <string name="text_afdelingen_niet_technisch_recruitment3">Blah, blah, blah, blah</string>
-    <string name="text_afdelingen_niet_technisch_recruitment4">Blah, blah, blah, blah</string>
-
-    <string name="title_afdelingen_niet_technisch_consultancy">Consultancy</string>
-    <string name="text_afdelingen_niet_technisch_consultancy1">Blah, blah, blah, blah</string>
-    <string name="text_afdelingen_niet_technisch_consultancy2">Blah, blah, blah, blah</string>
-    <string name="text_afdelingen_niet_technisch_consultancy3">Blah, blah, blah, blah</string>
-    <string name="text_afdelingen_niet_technisch_consultancy4">Blah, blah, blah, blah</string>
-
     <string name="title_afdelingen_niet_technisch_pmo">PMO</string>
     <string name="text_afdelingen_niet_technisch_pmo1"></string>
     <string name="text_afdelingen_niet_technisch_pmo2">Havenbedrijf Rotterdam, Achmea, Gemeente Amsterdam </string>
@@ -128,89 +91,29 @@
     <string name="text_afdelingen_niet_technisch_pmo4">Certificering:PMO Foundation, Prince2, ITIL</string>
 
     //strings projecten
-    <string name="text_projecten_prorail">•	Meerdere competities gewonnen, waaronder \‘Tijdig Roestrijden\’ en \‘Digitaal schouwen\’ \n \n
-        •	Java / HTML5 / GEO technologie / Beeldherkenning \n \n
-        •	Nieuwbouw- en beheercontract \n \n
-        •	Samen het spoor veiliger maken!
-</string>
-    <string name="text_projecten_politie">•	Al 18 jaar samenwerking \n \n
-•	Aanvalsprogramma IV Politie \n \n
-•	Succesvol Java-beheer \n \n
-•	Business Intelligence / Linked data / SAP
-
-    </string>
-    <string name="text_projecten_rabobank">Rabobank text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
-        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
-        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
-    </string>
-    <string name="text_projecten_ing">ING text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
-        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
-        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
-    </string>
-    <string name="text_projecten_havenbedrijf_rotterdam">Havenbedrijf Rotterdam text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
-        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
-        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
-    </string>
-    <string name="text_projecten_youforce">Youforce text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
-        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
-        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
-    </string>
-    <string name="text_projecten_ziggo">Ziggo text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
-        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
-        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
-    </string>
-    <string name="text_projecten_ns">NS text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
-        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
-        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
-    </string>
-    <string name="text_projecten_eneco">Eneco text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
-        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
-        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
-    </string>
-    <string name="text_projecten_belastingdienst">Belastingdienst text. Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
-        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
-        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.
-    </string>
-
-
-
-
+    <string name="text_projecten_prorail">•	Meerdere competities gewonnen, waaronder \‘Tijdig Roestrijden\’ en \‘Digitaal schouwen\’ \n \n•Java / HTML5 / GEO technologie / Beeldherkenning \n \n• Nieuwbouw- en beheercontract \n \n• Samen het spoor veiliger maken!</string>
+    <string name="text_projecten_politie">•	Al 18 jaar samenwerking \n \n• Aanvalsprogramma IV Politie \n \n• Succesvol Java-beheer \n \n• Business Intelligence / Linked data / SAP</string>
 
     //strings YP programma
     <string name="title_tab_yp_programma1">Inhoud</string>
     <string name="title_tab_yp_programma2">Sollicitatieproces</string>
+
     <string name="title_yp_programma1">ONTWIKKELPROGRAMMA</string>
-    <string name="text_yp_programma1">•	Tweejarig ontwikkelprogramma</string>
-    <string name="text_yp_programma2">•	Een intensieve basisopleiding van 6-8 weken</string>
-    <string name="text_yp_programma3">•	Een vliegende start van je carrière</string>
-    <string name="text_yp_programma3b">• Voor en door Ordina</string>
-    <string name="text_yp_programma3c">• Individueel en groepsgewijs leren</string>
-
-
-    <string name="title_yp_programma2">Leuk om te weten</string>
-    <string name="text_yp_programma4">•	Agile</string>
-    <string name="text_yp_programma5">•	Lean Foundation</string>
-    <string name="text_yp_programma5b">• Prince2</string>
-    <string name="text_yp_programma5c">• NLP Foundation</string>
-    <string name="text_yp_programma5d">• Personal Branding</string>
-    <string name="text_yp_programma5e">• Uiteraard haal je ook je certificeringen voor jouw vakgebied</string>
+    <string name="text_yp_programma1">• Tweejarig ontwikkelprogramma\n• Een intensieve basisopleiding van 6-8 weken\n• Een vliegende start van je carrière\n• Voor en door Ordina\n• Individueel en groepsgewijs leren</string>
 
     <string name="title_yp_programma3">OPLEIDINGEN</string>
+    <string name="text_yp_programma4">• Agile\n• Lean Foundation\n• Prince2\n• NLP Foundation\n• Personal Branding\n• Uiteraard haal je ook je certificeringen voor jouw vakgebied</string>
+
     <string name="title_yp_programma3b">COACHING</string>
 
-    &#xD;
 
-    <string name="text_yp_programma6">•	Twee jaar lang een coach (naast je manager) die je begeleid tijdens trainingen en opdrachten bij de klant</string>
+    <string name="text_yp_programma6">•	Twee jaar lang een coach (naast je manager) die je begeleidt tijdens trainingen en opdrachten bij de klant</string>
 
     <string name="title_yp_programma4">LEUK OM TE WETEN</string>
 
-    <string name="text_yp_programma6b">• Meer dan 150 Young Professionals zijn je afgelopen jaar voorgegaan\n• Veel terugkomdagen samen met andere Young Professionals\n• Tijdens het programma ga je al aan de slag bij klanten
-</string>
+    <string name="text_yp_programma6b">• Meer dan 150 Young Professionals zijn je afgelopen jaar voorgegaan\n• Veel terugkomdagen samen met andere Young Professionals\n• Tijdens het programma ga je al aan de slag bij klanten</string>
 
     <string name="yp_vacatures">YOUNG PROFESSIONAL VACATURES</string>
-    <string name="yp_vacatures2">YOUNG PROFESSIONAL VACATURES</string>
-
-
 
     <string name="waarom_ordina_kiezen">WAAROM ORDINA?</string>
     <string name="wat_doet_ordina">WAT DOET ORDINA?</string>
@@ -219,7 +122,8 @@
         Wij bedenken, bouwen en beheren ICT-toepassingen bij de overheid, in de financiële dienstverlening, de industrie en de zorg.
         Wij streven naar ICT die mensen écht verder helpt. ICT die er toe doet en die tot stand is gekomen zonder verspilling van middelen.
         Dat doen wij door samen met onze klanten duurzaam te innoveren.</string>
-    <string name="title_activity_project_belastingdienst">projectBelastingdienst</string>
-    <string name="title_activity_splashscreen">Splashscreen</string>
 
+    <string name="text_lorem_ipsum">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
+        Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
+        om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.</string>
 </resources>
