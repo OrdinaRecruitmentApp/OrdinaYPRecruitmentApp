@@ -45,58 +45,9 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_yp_programma2"
-            android:id="@+id/textView22"
-            android:layout_below="@+id/textView21"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:textColor="#000000"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_yp_programma3"
-            android:id="@+id/textView23"
-            android:layout_alignTop="@+id/textView22"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:textColor="#000000"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_yp_programma3b"
-            android:id="@+id/textView31"
-            android:layout_alignTop="@+id/textView22"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:textColor="#000000"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_yp_programma3c"
-            android:id="@+id/textView31b"
-            android:layout_alignTop="@+id/textView22"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:textColor="#000000"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -127,72 +78,6 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_yp_programma5"
-            android:id="@+id/textView26"
-            android:layout_below="@+id/textView25"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:textColor="#000000"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_yp_programma5b"
-            android:id="@+id/textView26b"
-            android:layout_below="@+id/textView25"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:textColor="#000000"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_yp_programma5c"
-            android:id="@+id/textView26c"
-            android:layout_below="@+id/textView25"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:textColor="#000000"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"/>
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_yp_programma5d"
-            android:id="@+id/textView26d"
-            android:layout_below="@+id/textView25"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:textColor="#000000"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/text_yp_programma5e"
-            android:id="@+id/textView26e"
-            android:layout_below="@+id/textView25"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:textColor="#000000"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"/>
 
 
         <TextView
