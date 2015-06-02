@@ -2,17 +2,26 @@ package nl.ordina.yp.recruitmentapp;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Rect;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
+import android.text.Html;
+import android.text.SpannableString;
+import android.text.Spanned;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class WaaromOrdinaActivity extends ActionBarActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +29,11 @@ public class WaaromOrdinaActivity extends ActionBarActivity {
         setContentView(R.layout.activity_waarom_ordina);
         ActionBar actionbar = getSupportActionBar();
         actionbar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#565A5C")));
+
+
     }
+
+
 
 
     @Override
@@ -67,4 +80,6 @@ public class WaaromOrdinaActivity extends ActionBarActivity {
 
         startActivity(Intent.createChooser(email, this.getString(R.string.email_choose_message)));
     }
+
+
 }
