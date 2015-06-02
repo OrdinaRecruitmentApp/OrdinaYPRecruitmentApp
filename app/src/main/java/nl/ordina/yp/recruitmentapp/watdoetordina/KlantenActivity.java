@@ -36,22 +36,22 @@ public class KlantenActivity extends ActionBarActivity {
     }
 
     private void initializeProjectLogos() {
-        //projectLogos.put(R.id.rabobank, R.drawable.rabobank_128x128);
-        //projectLogos.put(R.id.ing_bank, R.drawable.ing_bank_128x128);
-        //projectLogos.put(R.id.eneco, R.drawable.eneco_128x128);
+        projectLogos.put(R.id.bavaria, R.drawable.bavaria_128x128);
+        projectLogos.put(R.id.mindef, R.drawable.ministerie_van_defensie_128x128);
+        projectLogos.put(R.id.eneco, R.drawable.eneco_128x128);
         projectLogos.put(R.id.politie, R.drawable.politie_128x128);
-        //projectLogos.put(R.id.belastingdienst, R.drawable.belastingdienst_128x128);
+        projectLogos.put(R.id.uniu, R.drawable.universiteit_utrecht_128x128);
         projectLogos.put(R.id.prorail, R.drawable.prorail_128x128);
         //projectLogos.put(R.id.ns, R.drawable.ns_128x128);
         //projectLogos.put(R.id.havenbedrijf_rotterdam, R.drawable.r_v_d_k_128x128);
     }
 
     private void initializeProjectTexts() {
-        //projectTexts.put(R.id.rabobank, R.string.text_projecten_rabobank);
-        //projectTexts.put(R.id.ing_bank, R.string.text_projecten_ing);
-        //projectTexts.put(R.id.eneco, R.string.text_projecten_eneco);
+        projectTexts.put(R.id.mindef, R.string.text_projecten_mindef);
+        projectTexts.put(R.id.bavaria, R.string.text_projecten_bavaria);
+        projectTexts.put(R.id.eneco, R.string.text_projecten_eneco);
         projectTexts.put(R.id.politie, R.string.text_projecten_politie);
-        //projectTexts.put(R.id.belastingdienst, R.string.text_projecten_belastingdienst);
+        projectTexts.put(R.id.uniu, R.string.text_projecten_uniu);
         projectTexts.put(R.id.prorail, R.string.text_projecten_prorail);
         //projectTexts.put(R.id.ns, R.string.text_projecten_ns);
         //projectTexts.put(R.id.havenbedrijf_rotterdam, R.string.text_projecten_havenbedrijf_rotterdam);
@@ -93,6 +93,7 @@ public class KlantenActivity extends ActionBarActivity {
 
         ImageView projectImage = (ImageView) dialog.findViewById(R.id.klantprojecten_image);
         projectImage.setImageResource(projectLogos.get(id));
+        projectImage.setMaxHeight(64);
 
         dialog.show();
 

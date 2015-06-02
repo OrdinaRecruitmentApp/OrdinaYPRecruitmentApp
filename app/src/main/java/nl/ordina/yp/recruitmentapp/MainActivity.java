@@ -1,14 +1,13 @@
 package nl.ordina.yp.recruitmentapp;
 
-import android.app.Activity;
 import android.app.Dialog;
-import android.content.ComponentName;
-import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
+
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.net.NetworkInfo;
+
+import android.net.Uri;
+
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.ActionBar;
@@ -16,22 +15,29 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
 import android.view.Window;
 import android.widget.TextView;
+
+import android.widget.Button;
+
 
 
 public class MainActivity extends ActionBarActivity {
 
     protected Dialog mSplashDialog;
+    Button waaromOrdina;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         ActionBar actionbar = getSupportActionBar();
         actionbar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#565A5C")));
         actionbar.setTitle("");
         if(StateSplashscreen.firstTimeOpeningApp) {
+
             StateSplashscreen.firstTimeOpeningApp = false;
             showSplashScreen();
         }
@@ -77,8 +83,21 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
+
     public void startAboutActivity() {
         Intent intent = new Intent(this, AboutActivity.class);
+    }
+
+    public void goToEvenementen(View view){
+        Intent evenementenLink = new Intent(android.content.Intent.ACTION_VIEW);
+        evenementenLink.setData(Uri.parse("https://m.facebook.com/werkenbijordina?v=events&refid=17"));
+        startActivity(evenementenLink);
+    }
+
+    // closes the splashscreen
+    public void startEvenementenActivity(View view){
+        Intent intent = new Intent(this, FacebookEvenementenActivity.class);
+
         startActivity(intent);
     }
 

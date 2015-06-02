@@ -1,62 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="nl.ordina.yp.recruitmentapp" >
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+package="nl.ordina.yp.recruitmentapp">
+
+<uses-permission android:name="android.permission.INTERNET" />
+
+<application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:theme="@style/AppTheme">
+    <activity
+        android:name=".MainActivity"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme"
-             >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        android:screenOrientation="portrait">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".WaaromOrdinaActivity"
-            android:label="@string/title_activity_waarom_ordina"
-            android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name=".WatDoetOrdinaActivity"
-            android:label="@string/title_activity_wat_doet_ordina"
-            android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name=".YoungProfessionalProgramma"
-            android:label="@string/title_activity_young_professional_programma"
-            android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="nl.ordina.yp.recruitmentapp.MainActivity" />
-        </activity>
-        <activity
-            android:name=".watdoetordina.AfdelingenActivity"
-            android:label="@string/title_activity_afdelingen"
-            android:parentActivityName=".WatDoetOrdinaActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name=".watdoetordina.KlantenActivity"
-            android:label="@string/title_activity_klanten"
-            android:parentActivityName=".WatDoetOrdinaActivity"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name=".AboutActivity"
-            android:label="@string/title_activity_about"
-            android:parentActivityName=".MainActivity">
-        </activity>
-    </application>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:name=".WaaromOrdinaActivity"
+        android:label="@string/title_activity_waarom_ordina"
+        android:parentActivityName=".MainActivity"
+        android:screenOrientation="portrait"/>
+    <activity
+        android:name=".WatDoetOrdinaActivity"
+        android:label="@string/title_activity_wat_doet_ordina"
+        android:parentActivityName=".MainActivity"
+        android:screenOrientation="portrait"
+
+        ></activity>
+    <activity
+        android:name=".YoungProfessionalProgramma"
+        android:label="@string/title_activity_young_professional_programma"
+        android:parentActivityName=".MainActivity"
+        android:screenOrientation="portrait">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="nl.ordina.yp.recruitmentapp.MainActivity" />
+    </activity>
+    <activity
+        android:name=".watdoetordina.AfdelingenActivity"
+        android:label="@string/text_afdelingen"
+        android:parentActivityName=".WatDoetOrdinaActivity"
+        android:screenOrientation="portrait"></activity>
+    <activity
+        android:name=".watdoetordina.KlantenActivity"
+        android:label="@string/text_klanten"
+        android:parentActivityName=".WatDoetOrdinaActivity"
+        android:screenOrientation="portrait"></activity>
+
+    <activity
+        android:name=".FacebookEvenementenActivity"
+        android:label="@string/title_activity_facebook_evenementen"
+        android:parentActivityName=".MainActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="nl.ordina.yp.recruitmentapp.MainActivity" />
+    </activity>
+    <activity
+        android:name=".AboutActivity"
+        android:label="@string/title_activity_about"
+        android:parentActivityName=".MainActivity">
+    </activity>
+</application>
 
 </manifest>

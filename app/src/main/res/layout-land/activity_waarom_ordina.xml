@@ -360,7 +360,7 @@
             android:text="@string/yp_vacatures"
             android:id="@+id/button_vacatures2"
             android:onClick="goToVacatures"
-            android:background="#565A5C"
+            android:background="@drawable/button_ordina_grey"
             android:textColor="#FFFFFF"
             android:minWidth="280dp"
             android:fontFamily="Arial"

@@ -25,6 +25,7 @@
 
 
     // strings Waarom Ordina?
+    <string name="title_waarom_ordina_koptekst">DEZE YOUNG PROFESSIONALS VERTELLEN HET JOU GRAAG.\n</string>
     <string name="title_alwin_tan">ALWIN TAN</string>
     <string name="title_mark_mulder">MARK MULDER</string>
     <string name="title_mark_de_munnik">MARK DE MUNNIK</string>
@@ -87,21 +88,27 @@
     // strings afdelingen technisch
     <string name="title_afdelingen_technisch_java">JAVA</string>
     <string name="text_afdelingen_technisch_java1">250 medewerkers &amp; 30 Young Professionals</string>
-    <string name="text_afdelingen_technisch_java2">The Voice of Holland, Rabobank, gemeente Amsterdam</string>
-    <string name="text_afdelingen_technisch_java3">Spring, JPA, Hibernate, Agile &amp; Scrum</string>
+    <string name="text_afdelingen_technisch_java2">The Voice of Holland, Rabobank, Gemeente Amsterdam</string>
+    <string name="text_afdelingen_technisch_java3">Spring, JPA, Hibernate, Eclipse, Maven, GIT, Agile</string>
     <string name="text_afdelingen_technisch_java4">Certificering: Oracle (OCA/OCP)</string>
 
     <string name="title_afdelingen_technisch_microsoft">MICROSOFT</string>
     <string name="text_afdelingen_technisch_microsoft1">135 medewerkers &amp; 25 Young Professionals</string>
     <string name="text_afdelingen_technisch_microsoft2">Logius, Rabobank, Gemeente Amsterdam</string>
-    <string name="text_afdelingen_technisch_microsoft3">.Net programming, Agile Foundation</string>
-    <string name="text_afdelingen_technisch_microsoft4">Certificering: Microsoft Technology Associate (MTA)</string>
+    <string name="text_afdelingen_technisch_microsoft3">.NET (C#), ASP.NET MVC, Design Patterns, Microsoft Stack, Azure, Agile</string>
+    <string name="text_afdelingen_technisch_microsoft4">Certificering: Microsoft Technology Associate (MTA), Agile Foundation</string>
 
     <string name="title_afdelingen_technisch_testing">TESTING</string>
     <string name="text_afdelingen_technisch_testing1">135 medewerkers &amp; 25 Young Professionals></string>
-    <string name="text_afdelingen_technisch_testing2">Rabobank</string>
-    <string name="text_afdelingen_technisch_testing3">HTML/XML/SOA, SQL</string>
-    <string name="text_afdelingen_technisch_testing4">Certificering: Tmap Next, Agile Foundation</string>
+    <string name="text_afdelingen_technisch_testing2">Rabobank, ING, SNS, NS, Prorail, Ministerie van Algemene Zaken, UWV</string>
+    <string name="text_afdelingen_technisch_testing3">Certified Scrum Master, Behaviour Driven Development, ISTQB Advanced, Java voor Testers, Cucumber/Selenium/ Fitnesse</string>
+    <string name="text_afdelingen_technisch_testing4">Agile/DevOps, Testautomatisering, Security, Mobile, Ontwikkeling T-profiel door
+gerichte training
+</string>
+
+    <string name="title_afdelingen_technisch_ops_engineer">OPS-ENGINEER</string>
+    <string name="text_afdelingen_technisch_ops1">SQL, Shell-scripting en Python, Puppet, Tomcat</string>
+    <string name="text_afdelingen_technisch_ops2">Linux Read Hat training, Mogelijk verdere klantspecifieke opleiding</string>
 
     // strings afdelingen niet technisch
     <string name="title_afdelingen_niet_technisch_pmo">PMO</string>
@@ -113,6 +120,10 @@
     //strings projecten
     <string name="text_projecten_prorail">•	Meerdere competities gewonnen, waaronder \‘Tijdig Roestrijden\’ en \‘Digitaal schouwen\’ \n \n•Java / HTML5 / GEO technologie / Beeldherkenning \n \n• Nieuwbouw- en beheercontract \n \n• Samen het spoor veiliger maken!</string>
     <string name="text_projecten_politie">•	Al 18 jaar samenwerking \n \n• Aanvalsprogramma IV Politie \n \n• Succesvol Java-beheer \n \n• Business Intelligence / Linked data / SAP</string>
+    <string name="text_projecten_eneco">• Google Glass\n\n• SMART technologies, Android, Mirror API, GDK, JSON, Beeldherkenning, Stemcommando’s\n\n•	Klantgegevens en lokale energieprojecten realtime oproepen\n\n• Energieslurpende apparatuur bij klanten thuis in kaart brengen\n\n• Betere advisering van klanten door completere informatie</string>
+    <string name="text_projecten_mindef">• Livegang Marine schepen\n\n• SAP\n\n• Procesintegratie\n\n• Snellere bedrijfsvoering met één systeem\n\n• Eerste luchtverdedigings- en commandofregat dat over is op dit computersysteem</string>
+    <string name="text_projecten_bavaria">• Bavaria Innovation Challenge &amp; Bavaria SAP beheer (al 12 jaar)\n\n• Impact is een veel efficiënter ingericht systeem voor de kroegbazen en de leverancier Bavaria met de Smart Meter voor de Biertank\n\n</string>
+    <string name="text_projecten_uniu">• Oculus Rift ingezet bij onderzoek naar de lichaamsbeleving van mensen met anorexia nervosa\n\n• Virtual reality-toepassing door Ordina ontwikkeld\n\n</string>
 
     //strings YP programma
     <string name="title_tab_yp_programma1">Inhoud</string>
@@ -125,6 +136,7 @@
     <string name="text_yp_programma4">• Agile\n• Lean Foundation\n• Prince2\n• NLP Foundation\n• Personal Branding\n• Uiteraard haal je ook je certificeringen voor jouw vakgebied</string>
 
     <string name="title_yp_programma3b">COACHING</string>
+    <string name="title_activity_evenementen">EVENEMENTEN</string>
 
 
     <string name="text_yp_programma6">•	Twee jaar lang een coach (naast je manager) die je begeleidt tijdens trainingen en opdrachten bij de klant</string>
@@ -141,12 +153,15 @@
     <string name="klanten_activity_text">Ordina is de grootste, onafhankelijke ICT-dienstverlener in de Benelux met ruim 2.900 medewerkers.
         Wij bedenken, bouwen en beheren ICT-toepassingen bij de overheid, in de financiële dienstverlening, de industrie en de zorg.
         Wij streven naar ICT die mensen écht verder helpt. ICT die er toe doet en die tot stand is gekomen zonder verspilling van middelen.
-        Dat doen wij door samen met onze klanten duurzaam te innoveren.</string>
+        Dat doen wij door samen met onze klanten duurzaam te innoveren.\n\n<i>Klik op een logo voor meer info.</i></string>
 
     <string name="text_lorem_ipsum">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
         Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
         om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.</string>
 
+    <string name="title_activity_facebook_evenementen">EVENEMENTEN</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="evenementen">EVENEMENTEN</string>
+
 </resources>
