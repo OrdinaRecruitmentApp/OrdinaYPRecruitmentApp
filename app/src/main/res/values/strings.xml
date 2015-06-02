@@ -7,6 +7,23 @@
     <string name="email_type">message/rfc822</string>
     <string name="email_choose_message">Choose an Email client :</string>
 
+    // strings about menu
+    <string name="title_about_icon">About</string>
+    <string name="title_activity_about">OVER DEZE APP</string>
+    <string name="text_about_over1">OVER</string>
+    <string name="text_about_over2">Deze app is gemaakt door Ordina Young Professionals.</string>
+    <string name="text_about_info">Vanuit een praktijkopdracht hebben Ordina Young Professionals van Requirements,
+        Java en Testing gezamenlijk deze app gemaakt voor Recruitment.
+        De app is dankzij Scrum en hard werken in drie weken ontwikkeld door twee teams die fysiek waren gescheiden van elkaar.
+        Het hoofddoel van de app is om potentiële Young Professionals op een prettige manier te informeren, interesseren en inspireren voor de carrièremogelijkheden bij Ordina.
+    </string>
+    <string name="text_about_dank">Met dank aan: Lotte van den Berg, Annoushka Presentacion, Mark de Munnik,
+        Mohammed Jalal Mekmassi, Alwin Tan, Aziz Arig, Mark Mulder, Sinan Ozdil, Ahmed Mohamed,
+        Tjeerdjan Nieuwenhuis, Rene Berghuis, Sergio Taytelbaum, Marloes van Dongen, Annette Hoving,
+        Desiree Jansen, Frans de Wilde, Sabrina Wilbrink en Benito de Miranda.
+    </string>
+
+
     // strings Waarom Ordina?
     <string name="title_alwin_tan">ALWIN TAN</string>
     <string name="title_mark_mulder">MARK MULDER</string>
@@ -129,4 +146,7 @@
     <string name="text_lorem_ipsum">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
         Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
         om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.</string>
+
+
+    <string name="hello_world">Hello world!</string>
 </resources>

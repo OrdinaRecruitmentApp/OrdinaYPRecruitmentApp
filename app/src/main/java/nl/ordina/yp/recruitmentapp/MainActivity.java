@@ -6,14 +6,18 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-
+import android.view.Window;
+import android.widget.TextView;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -24,6 +28,9 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ActionBar actionbar = getSupportActionBar();
+        actionbar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#565A5C")));
+        actionbar.setTitle("");
         if(StateSplashscreen.firstTimeOpeningApp) {
             StateSplashscreen.firstTimeOpeningApp = false;
             showSplashScreen();
@@ -33,7 +40,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
@@ -44,6 +51,13 @@ public class MainActivity extends ActionBarActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
+
+        if (id == R.id.action_email) {
+            sendEmail();
+        }
+        if(id == R.id.action_about) {
+            startAboutActivity();
+        }
 
         return super.onOptionsItemSelected(item);
     }
@@ -62,6 +76,12 @@ public class MainActivity extends ActionBarActivity {
         Intent intent = new Intent(this, YoungProfessionalProgramma.class);
         startActivity(intent);
     }
+
+    public void startAboutActivity() {
+        Intent intent = new Intent(this, AboutActivity.class);
+        startActivity(intent);
+    }
+
 // closes the splashscreen
     protected void removeSplashScreen() {
         if (mSplashDialog != null) {
@@ -87,6 +107,35 @@ public class MainActivity extends ActionBarActivity {
                 removeSplashScreen();
             }
         }, 2000);
+    }
+
+    public void sendEmail() {
+        String[] TO = {this.getString(R.string.email_address)};
+        String subject = this.getString(R.string.email_subject);
+
+        Intent email = new Intent(Intent.ACTION_SEND);
+        email.putExtra(Intent.EXTRA_EMAIL, TO);
+        email.putExtra(Intent.EXTRA_SUBJECT, subject);
+
+        email.setType(this.getString(R.string.email_type));
+
+        startActivity(Intent.createChooser(email, this.getString(R.string.email_choose_message)));
+    }
+
+    public void showAboutDialog() {
+
+
+        final Dialog dialog = new Dialog(this);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.setContentView(R.layout.activity_about_dialog);
+
+        TextView projectText = (TextView) dialog.findViewById(R.id.about_text);
+        projectText.setText(R.string.text_about_info);
+
+
+
+        dialog.show();
+
     }
 }
 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="nl.ordina.yp.recruitmentapp" >
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +11,8 @@
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme_no_actionbar" >
+            android:theme="@style/AppTheme"
+             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,16 +23,13 @@
             android:name=".WaaromOrdinaActivity"
             android:label="@string/title_activity_waarom_ordina"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait"
-            >
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".WatDoetOrdinaActivity"
             android:label="@string/title_activity_wat_doet_ordina"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait"
-
-            >
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".YoungProfessionalProgramma"
@@ -53,7 +52,11 @@
             android:parentActivityName=".WatDoetOrdinaActivity"
             android:screenOrientation="portrait" >
         </activity>
-
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainActivity">
+        </activity>
     </application>
 
 </manifest>
