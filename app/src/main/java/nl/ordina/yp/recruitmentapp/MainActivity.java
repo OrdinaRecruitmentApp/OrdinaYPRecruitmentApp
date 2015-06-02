@@ -86,6 +86,7 @@ public class MainActivity extends ActionBarActivity {
 
     public void startAboutActivity() {
         Intent intent = new Intent(this, AboutActivity.class);
+        startActivity(intent);
     }
 
     public void goToEvenementen(View view){
