@@ -60,6 +60,7 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
+<<<<<<< HEAD
 
     public void goToEvenementen(View view){
         Intent evenementenLink = new Intent(android.content.Intent.ACTION_VIEW);
@@ -73,6 +74,14 @@ public class MainActivity extends ActionBarActivity {
     }
 
     // closes the splashscreen
+=======
+    public void startEvenementenActivity(View view){
+        Intent intent = new Intent(this, FacebookEvenementenActivity.class);
+        startActivity(intent);
+    }
+
+// closes the splashscreen
+>>>>>>> fec31a51a075f25d5cacdee4c49b2d71908625c0
     protected void removeSplashScreen() {
         if (mSplashDialog != null) {
             mSplashDialog.dismiss();

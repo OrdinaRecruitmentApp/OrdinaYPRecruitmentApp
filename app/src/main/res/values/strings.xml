@@ -56,6 +56,9 @@
     <string name="title_activity_waarom_ordina">WAAROM ORDINA?</string>
     <string name="title_activity_wat_doet_ordina">WAT DOET ORDINA?</string>
     <string name="title_activity_young_professional_programma">YP PROGRAMMA</string>
+    <string name="title_activity_afdelingen">AFDELINGEN</string>
+    <string name="title_activity_klanten">KLANTEN</string>
+
 
     <string name="young_professionals">Young Professionals</string>
 
@@ -138,4 +141,8 @@ gerichte training
     <string name="text_lorem_ipsum">Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
         Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde
         om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting.</string>
+    <string name="title_activity_facebook_evenementen">EVENEMENTEN</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="evenementen">EVENEMENTEN</string>
 </resources>

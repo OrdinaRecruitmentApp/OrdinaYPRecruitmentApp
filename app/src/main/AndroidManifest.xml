@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="nl.ordina.yp.recruitmentapp">
+=======
+    package="nl.ordina.yp.recruitmentapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+>>>>>>> fec31a51a075f25d5cacdee4c49b2d71908625c0
 
     <application
 
@@ -24,6 +30,7 @@
             android:name=".Evenementen"
             android:label="@string/title_activity_evenementen"
             android:parentActivityName=".MainActivity"
+<<<<<<< HEAD
             android:screenOrientation="portrait"></activity>
     <activity
         android:name=".WaaromOrdinaActivity"
@@ -58,5 +65,45 @@
         android:screenOrientation="portrait"></activity>
 
 </application>
+=======
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".WatDoetOrdinaActivity"
+            android:label="@string/title_activity_wat_doet_ordina"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".YoungProfessionalProgramma"
+            android:label="@string/title_activity_young_professional_programma"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nl.ordina.yp.recruitmentapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".watdoetordina.AfdelingenActivity"
+            android:label="@string/title_activity_afdelingen"
+            android:parentActivityName=".WatDoetOrdinaActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".watdoetordina.KlantenActivity"
+            android:label="@string/title_activity_klanten"
+            android:parentActivityName=".WatDoetOrdinaActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FacebookEvenementenActivity"
+            android:label="@string/title_activity_facebook_evenementen"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nl.ordina.yp.recruitmentapp.MainActivity" />
+        </activity>
+    </application>
+>>>>>>> fec31a51a075f25d5cacdee4c49b2d71908625c0
 
     </manifest>

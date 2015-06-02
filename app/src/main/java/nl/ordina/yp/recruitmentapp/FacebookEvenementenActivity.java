@@ -2,49 +2,57 @@ package nl.ordina.yp.recruitmentapp;
 
 import android.content.Intent;
 import android.graphics.Color;
-import android.graphics.Rect;
 import android.graphics.drawable.ColorDrawable;
-import android.net.Uri;
-import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
-import android.text.Html;
-import android.text.SpannableString;
-import android.text.Spanned;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import android.widget.ProgressBar;
 
-import java.util.ArrayList;
-import java.util.List;
+import nl.ordina.yp.recruitmentapp.R;
 
+public class FacebookEvenementenActivity extends ActionBarActivity {
 
-public class WaaromOrdinaActivity extends ActionBarActivity {
-
+    WebView webView;
+    ProgressBar spinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_waarom_ordina);
-        ActionBar actionbar = getSupportActionBar();
-        actionbar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#565A5C")));
-
-
+        setContentView(R.layout.activity_facebook_evenementen);
+        setActionbarColor();
+        showSpinner();
+        startWebView();
     }
 
+    private void setActionbarColor() {
+        ActionBar actionbar = getSupportActionBar();
+        actionbar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#565A5C")));
+    }
 
+    private void startWebView() {
+        webView = (WebView)findViewById(R.id.webview);
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.setWebViewClient(new PageLoader());
+        webView.loadUrl("https://www.facebook.com/werkenbijordina/events?key=events");
+    }
 
+    private void showSpinner() {
+        spinner = (ProgressBar)findViewById(R.id.spinner);
+        spinner.setVisibility(View.VISIBLE);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_waarom_ordina, menu);
+        getMenuInflater().inflate(R.menu.menu_facebook_evenementen, menu);
         return true;
     }
 
-    //Deze hele methode kan waarschijnlijk weg omdat we de settings button niet gebruiken en waarschijnlijk ook geen andere buttons
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -52,20 +60,31 @@ public class WaaromOrdinaActivity extends ActionBarActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        //Settings in xml files uit gecomment
         if (id == R.id.action_email) {
 
             sendEmail();
         }
 
+
         return super.onOptionsItemSelected(item);
     }
 
-    public void goToVacatures(View view){
-        Intent vacatureLink = new Intent(android.content.Intent.ACTION_VIEW);
-        vacatureLink.setData(Uri.parse("http://m.werkenbijordina.nl/nl/mobile/617/jobs?combine=young+professional&field_functiegroep_tid=All&field_region_tid=All"));
-        startActivity(vacatureLink);
+
+    private class PageLoader extends WebViewClient {  //HERE IS THE MAIN CHANGE.
+
+        @Override
+        public boolean shouldOverrideUrlLoading(WebView view, String url) {
+            return (false);
+        }
+
+        @Override
+        public void onPageFinished(WebView view, String url) {
+            //hide loading image
+            findViewById(R.id.spinner).setVisibility(View.GONE);
+            //show webview
+            findViewById(R.id.webview).setVisibility(View.VISIBLE);
+        }
+
     }
 
     public void sendEmail() {
@@ -80,6 +99,4 @@ public class WaaromOrdinaActivity extends ActionBarActivity {
 
         startActivity(Intent.createChooser(email, this.getString(R.string.email_choose_message)));
     }
-
-
 }
