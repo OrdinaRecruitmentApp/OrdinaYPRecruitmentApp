@@ -78,15 +78,11 @@
         android:text="@string/evenementen"
         android:id="@+id/button_evenementen"
         android:layout_marginTop="20dp"
-        android:onClick="startEvenementenActivity"
+        android:onClick="startFaceBookBrowserActivity"
         android:layout_below="@+id/button_young_professional_programma"
         android:layout_centerHorizontal="true"
         android:minWidth="280dp"
         android:maxWidth = "280dp"
         android:fontFamily="Arial" />
-
-
-
-
 
 </RelativeLayout>

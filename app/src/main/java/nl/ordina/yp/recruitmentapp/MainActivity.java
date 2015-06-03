@@ -91,13 +91,12 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
-    public void goToEvenementen(View view){
-        Intent evenementenLink = new Intent(android.content.Intent.ACTION_VIEW);
-        evenementenLink.setData(Uri.parse("https://m.facebook.com/werkenbijordina?v=events&refid=17"));
-        startActivity(evenementenLink);
+    public void startFaceBookBrowserActivity(View view) {
+        Uri uri = Uri.parse("https://www.facebook.com/werkenbijordina/events?key=events");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
     }
 
-    // closes the splashscreen
     public void startEvenementenActivity(View view){
         Intent intent = new Intent(this, FacebookEvenementenActivity.class);
 
