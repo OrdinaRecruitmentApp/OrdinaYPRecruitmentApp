@@ -18,6 +18,7 @@ import android.widget.TextView;
 
 import java.util.HashMap;
 
+import nl.ordina.yp.recruitmentapp.Mail;
 import nl.ordina.yp.recruitmentapp.R;
 
 public class KlantenActivity extends ActionBarActivity {
@@ -75,7 +76,9 @@ public class KlantenActivity extends ActionBarActivity {
         //noinspection SimplifiableIfStatement
         //Settings in xml files uit gecomment
         if (id == R.id.action_email) {
-            sendEmail();
+            Mail mail = new Mail(this.getString(R.string.email_address), this.getString(R.string.email_subject),
+                    this.getString(R.string.email_type), this.getString(R.string.email_choose_message));
+            startActivity(mail.sendEmail());
         }
 
         return super.onOptionsItemSelected(item);
@@ -105,16 +108,5 @@ public class KlantenActivity extends ActionBarActivity {
         startActivity(vacatureLink);
     }
 
-    public void sendEmail() {
-        String[] TO = {this.getString(R.string.email_address)};
-        String subject = this.getString(R.string.email_subject);
 
-        Intent email = new Intent(Intent.ACTION_SEND);
-        email.putExtra(Intent.EXTRA_EMAIL, TO);
-        email.putExtra(Intent.EXTRA_SUBJECT, subject);
-
-        email.setType(this.getString(R.string.email_type));
-
-        startActivity(Intent.createChooser(email, this.getString(R.string.email_choose_message)));
-    }
 }
