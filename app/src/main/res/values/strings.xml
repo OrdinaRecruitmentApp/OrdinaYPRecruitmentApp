@@ -25,7 +25,7 @@
 
 
     // strings Waarom Ordina?
-    <string name="title_waarom_ordina_koptekst">DEZE YOUNG PROFESSIONALS VERTELLEN HET JOU GRAAG.\n</string>
+    <string name="title_waarom_ordina_koptekst"><b>DEZE YOUNG PROFESSIONALS VERTELLEN HET JOU GRAAG.</b>\n\n</string>
     <string name="title_alwin_tan">ALWIN TAN</string>
     <string name="title_mark_mulder">MARK MULDER</string>
     <string name="title_mark_de_munnik">MARK DE MUNNIK</string>

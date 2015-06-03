@@ -4,7 +4,6 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
@@ -38,7 +37,7 @@ public class KlantenActivity extends ActionBarActivity {
 
     private void initializeProjectLogos() {
         projectLogos.put(R.id.bavaria, R.drawable.bavaria_128x128);
-        projectLogos.put(R.id.mindef, R.drawable.ministerie_van_defensie_128x128);
+        projectLogos.put(R.id.mindef, R.drawable.mindef_128x128);
         projectLogos.put(R.id.eneco, R.drawable.eneco_128x128);
         projectLogos.put(R.id.politie, R.drawable.politie_128x128);
         projectLogos.put(R.id.uniu, R.drawable.universiteit_utrecht_128x128);

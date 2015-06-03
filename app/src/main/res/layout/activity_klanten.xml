@@ -85,7 +85,7 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/ministerie_van_defensie128x"
+                    android:src="@drawable/mindef_128x128"
                     android:maxHeight="25px"
                     android:id="@+id/mindef"
                     android:onClick="showProjectDialog"
