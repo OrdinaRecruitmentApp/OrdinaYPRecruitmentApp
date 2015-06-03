@@ -59,7 +59,9 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         if (id == R.id.action_email) {
-            sendEmail();
+            Mail mail = new Mail(this.getString(R.string.email_address), this.getString(R.string.email_subject),
+                    this.getString(R.string.email_type), this.getString(R.string.email_choose_message));
+            startActivity(mail.sendEmail());
         }
         if(id == R.id.action_about) {
             startAboutActivity();
@@ -129,18 +131,7 @@ public class MainActivity extends ActionBarActivity {
         }, 2000);
     }
 
-    public void sendEmail() {
-        String[] TO = {this.getString(R.string.email_address)};
-        String subject = this.getString(R.string.email_subject);
 
-        Intent email = new Intent(Intent.ACTION_SEND);
-        email.putExtra(Intent.EXTRA_EMAIL, TO);
-        email.putExtra(Intent.EXTRA_SUBJECT, subject);
-
-        email.setType(this.getString(R.string.email_type));
-
-        startActivity(Intent.createChooser(email, this.getString(R.string.email_choose_message)));
-    }
 
     public void showAboutDialog() {
 

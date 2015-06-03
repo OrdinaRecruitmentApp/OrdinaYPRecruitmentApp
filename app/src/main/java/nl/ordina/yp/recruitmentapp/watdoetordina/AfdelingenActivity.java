@@ -21,6 +21,7 @@ import android.view.ViewGroup;
 
 import java.util.Locale;
 
+import nl.ordina.yp.recruitmentapp.Mail;
 import nl.ordina.yp.recruitmentapp.R;
 
 public class AfdelingenActivity extends ActionBarActivity implements ActionBar.TabListener {
@@ -100,7 +101,9 @@ public class AfdelingenActivity extends ActionBarActivity implements ActionBar.T
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_email) {
-            sendEmail();
+            Mail mail = new Mail(this.getString(R.string.email_address), this.getString(R.string.email_subject),
+                    this.getString(R.string.email_type), this.getString(R.string.email_choose_message));
+            startActivity(mail.sendEmail());
         }
 
         return super.onOptionsItemSelected(item);
@@ -214,16 +217,5 @@ public class AfdelingenActivity extends ActionBarActivity implements ActionBar.T
         vacatureLink.setData(Uri.parse("http://m.werkenbijordina.nl/nl/mobile/617/jobs?combine=young+professional&field_functiegroep_tid=All&field_region_tid=All"));
         startActivity(vacatureLink);
     }
-    public void sendEmail() {
-        String[] TO = {this.getString(R.string.email_address)};
-        String subject = this.getString(R.string.email_subject);
 
-        Intent email = new Intent(Intent.ACTION_SEND);
-        email.putExtra(Intent.EXTRA_EMAIL, TO);
-        email.putExtra(Intent.EXTRA_SUBJECT, subject);
-
-        email.setType(this.getString(R.string.email_type));
-
-        startActivity(Intent.createChooser(email, this.getString(R.string.email_choose_message)));
-    }
 }
