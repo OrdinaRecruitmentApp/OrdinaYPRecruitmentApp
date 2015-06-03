@@ -4,7 +4,7 @@
       tools:context="yp.ordina.nl.nl.ordina.yp.ordinarecruitmentapp..yp.ordina.nl.ordinareqruitmentapp.watdoetordina.KlantenActivity">
     <item
         android:id="@+id/action_email"
-        android:icon="@drawable/ic_action_email32x32"
+        android:icon="@drawable/ic_action_email"
         android:title="@string/title_email_icon"
         app:showAsAction="always"
         />
