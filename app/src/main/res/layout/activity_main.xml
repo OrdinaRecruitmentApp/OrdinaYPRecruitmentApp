@@ -26,20 +26,18 @@
         android:layout_height="wrap_content"
         android:text="@string/waarom_ordina_kiezen"
         android:id="@+id/button_waarom_ordina"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="91dp"
         android:onClick="startWaaromOrdinaActivity"
 
         android:textColor="#FFFFFF"
         android:minWidth="280dp"
         android:maxWidth="280dp"
         android:fontFamily="Arial"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_alignLeft="@+id/button_wat_doet_ordina"
-        android:layout_alignStart="@+id/button_wat_doet_ordina"
 
         android:background="@drawable/button_ordina_orange"
-        />
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/button_wat_doet_ordina"
+        android:layout_alignStart="@+id/button_wat_doet_ordina" />
 
 
     <Button
@@ -72,20 +70,6 @@
         android:layout_height="wrap_content"
         android:fontFamily="Arial" />
 
-    <Button
-        android:text="@string/title_activity_evenementen"
-        android:id="@+id/button_evenementen"
-        android:onClick="startEvenementenActivity"
-        android:layout_below="@+id/button_young_professional_programma"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:minWidth="280dp"
-        android:maxWidth="280dp"
-        android:background="@drawable/button_ordina_orange"
-        android:textColor="#FFFFFF"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="Arial" />
 
     <Button
         android:layout_width="wrap_content"
