@@ -37,7 +37,6 @@
         android:layout_centerHorizontal="true"
         android:layout_alignLeft="@+id/button_wat_doet_ordina"
         android:layout_alignStart="@+id/button_wat_doet_ordina"
-
         android:background="@drawable/button_ordina_orange"
         />
 
@@ -87,20 +86,20 @@
         android:layout_height="wrap_content"
         android:fontFamily="Arial" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#FFFFFF"
-        android:background="@drawable/button_ordina_orange"
-        android:text="@string/evenementen"
-        android:id="@+id/button_evenementen"
-        android:layout_marginTop="20dp"
-        android:onClick="startEvenementenActivity"
-        android:layout_below="@+id/button_young_professional_programma"
-        android:layout_centerHorizontal="true"
-        android:minWidth="280dp"
-        android:maxWidth = "280dp"
-        android:fontFamily="Arial" />
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:background="@drawable/button_ordina_orange"-->
+        <!--android:text="@string/evenementen"-->
+        <!--android:id="@+id/button_evenementen"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:onClick="startEvenementenActivity"-->
+        <!--android:layout_below="@+id/button_young_professional_programma"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:minWidth="280dp"-->
+        <!--android:maxWidth = "280dp"-->
+        <!--android:fontFamily="Arial" />-->
 
 
 
