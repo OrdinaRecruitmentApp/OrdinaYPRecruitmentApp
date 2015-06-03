@@ -2,12 +2,8 @@ package nl.ordina.yp.recruitmentapp;
 
 import android.app.Dialog;
 import android.content.Intent;
-
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-
-import android.net.Uri;
-
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.ActionBar;
@@ -15,29 +11,23 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-
 import android.view.Window;
 import android.widget.TextView;
-
-import android.widget.Button;
-
 
 
 public class MainActivity extends ActionBarActivity {
 
     protected Dialog mSplashDialog;
-    Button waaromOrdina;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         ActionBar actionbar = getSupportActionBar();
         actionbar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#565A5C")));
         actionbar.setTitle("");
-        if(StateSplashscreen.firstTimeOpeningApp) {
-
+        if (StateSplashscreen.firstTimeOpeningApp) {
+            actionbar.hide();
             StateSplashscreen.firstTimeOpeningApp = false;
             showSplashScreen();
         }
@@ -63,7 +53,7 @@ public class MainActivity extends ActionBarActivity {
                     this.getString(R.string.email_type), this.getString(R.string.email_choose_message));
             startActivity(mail.sendEmail());
         }
-        if(id == R.id.action_about) {
+        if (id == R.id.action_about) {
             startAboutActivity();
         }
 
@@ -91,6 +81,9 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
+<<<<<<< HEAD
+    public void startEvenementenActivity(View view) {
+=======
     public void startFaceBookBrowserActivity(View view) {
         Uri uri = Uri.parse("https://www.facebook.com/werkenbijordina/events?key=events");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
@@ -98,17 +91,20 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void startEvenementenActivity(View view){
+>>>>>>> ae4c17f760392511cd67cf0f4964a3ff12e3d748
         Intent intent = new Intent(this, FacebookEvenementenActivity.class);
 
         startActivity(intent);
     }
 
-// closes the splashscreen
+    // closes the splashscreen
     protected void removeSplashScreen() {
         if (mSplashDialog != null) {
             mSplashDialog.dismiss();
             mSplashDialog = null;
         }
+        ActionBar actionbar = getSupportActionBar();
+        actionbar.show();
     }
 
     /**
@@ -118,6 +114,7 @@ public class MainActivity extends ActionBarActivity {
         mSplashDialog = new Dialog(this, R.style.SplashScreen);
         mSplashDialog.setContentView(R.layout.splashscreen);
         mSplashDialog.setCancelable(false);
+
         mSplashDialog.show();
 
         // Set Runnable to remove splash screen just in case
@@ -141,7 +138,6 @@ public class MainActivity extends ActionBarActivity {
 
         TextView projectText = (TextView) dialog.findViewById(R.id.about_text);
         projectText.setText(R.string.text_about_info);
-
 
 
         dialog.show();
