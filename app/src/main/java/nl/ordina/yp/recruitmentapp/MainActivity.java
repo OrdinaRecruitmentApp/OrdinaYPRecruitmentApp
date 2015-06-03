@@ -4,6 +4,7 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.ActionBar;
@@ -81,9 +82,9 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
-<<<<<<< HEAD
-    public void startEvenementenActivity(View view) {
-=======
+
+
+
     public void startFaceBookBrowserActivity(View view) {
         Uri uri = Uri.parse("https://www.facebook.com/werkenbijordina/events?key=events");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
@@ -91,7 +92,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void startEvenementenActivity(View view){
->>>>>>> ae4c17f760392511cd67cf0f4964a3ff12e3d748
+
         Intent intent = new Intent(this, FacebookEvenementenActivity.class);
 
         startActivity(intent);
