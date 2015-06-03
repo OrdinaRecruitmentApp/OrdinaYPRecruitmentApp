@@ -51,7 +51,9 @@ public class WatDoetOrdinaActivity extends ActionBarActivity {
         //noinspection SimplifiableIfStatement
         //Settings in xml files uit gecomment
         if (id == R.id.action_email) {
-            sendEmail();
+            Mail mail = new Mail(this.getString(R.string.email_address), this.getString(R.string.email_subject),
+                    this.getString(R.string.email_type), this.getString(R.string.email_choose_message));
+            startActivity(mail.sendEmail());
         }
 
         return super.onOptionsItemSelected(item);

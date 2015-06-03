@@ -49,7 +49,9 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         if (id == R.id.action_email) {
-            sendEmail();
+            Mail mail = new Mail(this.getString(R.string.email_address), this.getString(R.string.email_subject),
+                    this.getString(R.string.email_type), this.getString(R.string.email_choose_message));
+            startActivity(mail.sendEmail());
         }
         if (id == R.id.action_about) {
             startAboutActivity();
@@ -79,7 +81,17 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
+<<<<<<< HEAD
     public void startEvenementenActivity(View view) {
+=======
+    public void startFaceBookBrowserActivity(View view) {
+        Uri uri = Uri.parse("https://www.facebook.com/werkenbijordina/events?key=events");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
+
+    public void startEvenementenActivity(View view){
+>>>>>>> ae4c17f760392511cd67cf0f4964a3ff12e3d748
         Intent intent = new Intent(this, FacebookEvenementenActivity.class);
 
         startActivity(intent);
@@ -115,18 +127,7 @@ public class MainActivity extends ActionBarActivity {
         }, 2000);
     }
 
-    public void sendEmail() {
-        String[] TO = {this.getString(R.string.email_address)};
-        String subject = this.getString(R.string.email_subject);
 
-        Intent email = new Intent(Intent.ACTION_SEND);
-        email.putExtra(Intent.EXTRA_EMAIL, TO);
-        email.putExtra(Intent.EXTRA_SUBJECT, subject);
-
-        email.setType(this.getString(R.string.email_type));
-
-        startActivity(Intent.createChooser(email, this.getString(R.string.email_choose_message)));
-    }
 
     public void showAboutDialog() {
 

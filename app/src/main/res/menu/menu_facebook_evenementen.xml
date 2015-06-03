@@ -4,7 +4,7 @@
       tools:context="nl.ordina.yp.recruitmentapp.FacebookEvenementenActivity">
       <item
           android:id="@+id/action_email"
-          android:icon="@drawable/ic_action_email32x32"
+          android:icon="@drawable/ic_action_email"
           android:title="@string/title_email_icon"
           app:showAsAction="always"
           />
