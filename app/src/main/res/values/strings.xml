@@ -108,7 +108,7 @@ gerichte training
 
     <string name="title_afdelingen_technisch_ops_engineer">OPS-ENGINEER</string>
     <string name="text_afdelingen_technisch_ops1">SQL, Shell-scripting en Python, Puppet, Tomcat</string>
-    <string name="text_afdelingen_technisch_ops2">Linux Red Hat training, Mogelijk verdere klantspecifieke opleiding</string>
+    <string name="text_afdelingen_technisch_ops2">Linux Red Hat training, mogelijk verdere klantspecifieke opleiding</string>
 
     // strings afdelingen niet technisch
     <string name="title_afdelingen_niet_technisch_pmo">PMO</string>
