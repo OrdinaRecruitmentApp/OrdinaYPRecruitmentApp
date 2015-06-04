@@ -11,24 +11,17 @@
     android:id="@+id/layout"
     android:background="@drawable/startscherm_320">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:textColor="#FFFFFF"
-        android:textSize="30dp"
-        android:fontFamily="Arial"
-        android:textStyle="bold"
-        android:id="@+id/textView" />
+
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/waarom_ordina_kiezen"
         android:id="@+id/button_waarom_ordina"
-        android:layout_marginTop="69dp"
+        android:layout_marginTop="90dp"
         android:onClick="startWaaromOrdinaActivity"
         android:textColor="#FFFFFF"
+        android:layout_weight="40"
         android:minWidth="280dp"
         android:maxWidth="280dp"
         android:fontFamily="Arial"
@@ -46,6 +39,7 @@
         android:text="@string/wat_doet_ordina"
         android:id="@+id/button_wat_doet_ordina"
         android:layout_marginTop="20dp"
+        android:layout_weight="20"
         android:onClick="startWatDoetOrdinaActivity"
         android:layout_below="@+id/button_waarom_ordina"
         android:layout_centerHorizontal="true"
@@ -60,6 +54,7 @@
         android:layout_below="@+id/button_wat_doet_ordina"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:layout_weight="20"
         android:minWidth="280dp"
         android:maxWidth="280dp"
         android:background="@drawable/button_ordina_orange"
@@ -76,6 +71,7 @@
         android:background="@drawable/button_ordina_orange"
         android:text="@string/evenementen"
         android:id="@+id/button_evenementen"
+        android:layout_weight="20"
         android:layout_marginTop="20dp"
         android:onClick="startFaceBookBrowserActivity"
         android:layout_below="@+id/button_young_professional_programma"

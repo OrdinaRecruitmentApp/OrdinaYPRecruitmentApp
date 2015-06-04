@@ -36,9 +36,11 @@ public class AboutActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        //if (id == R.id.action_settings) {
-        //    return true;
-        //}
+        if (id == R.id.action_email) {
+            Mail mail = new Mail(this.getString(R.string.email_address), this.getString(R.string.email_subject),
+                    this.getString(R.string.email_type), this.getString(R.string.email_choose_message));
+            startActivity(mail.sendEmail());
+        }
 
         return super.onOptionsItemSelected(item);
     }
