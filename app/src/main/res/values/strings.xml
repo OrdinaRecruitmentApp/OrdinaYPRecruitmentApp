@@ -130,7 +130,7 @@ gerichte training
     <string name="title_tab_yp_programma2">Sollicitatieproces</string>
 
     <string name="title_yp_programma1">ONTWIKKELPROGRAMMA</string>
-    <string name="text_yp_programma1">• Tweejarig ontwikkelprogramma\n• Een intensieve basisopleiding van 6-8 weken\n• Een vliegende start van je carrière\n• Voor en door Ordina\n• Individueel en groepsgewijs leren</string>
+    <string name="text_yp_programma1">• Tweejarig ontwikkelprogramma\n• Een intensieve basisopleiding van 6-8 weken\n• Een vliegende start van je carrière\n• Voor en door Ordina\n• Individueel en groepsgewijs leren\n\n\<i>\"Neem de regie over je eigen ontwikkeling\"</i></string>
 
     <string name="title_yp_programma3">OPLEIDINGEN</string>
     <string name="text_yp_programma4">• Agile\n• Lean Foundation\n• Prince2\n• NLP Foundation\n• Personal Branding\n• Uiteraard haal je ook je certificeringen voor jouw vakgebied</string>
@@ -139,11 +139,11 @@ gerichte training
     <string name="title_activity_evenementen">EVENEMENTEN</string>
 
 
-    <string name="text_yp_programma6">•	Twee jaar lang een coach (naast je manager) die je begeleidt tijdens trainingen en opdrachten bij de klant\n• \"Neem de regie over je eigen ontwikkeling\" (Eric Schagen, YP Coach)\n• \"Stay hungry, stay foolish!\" (Henri van Herwaarden, YP Coach)</string>
+    <string name="text_yp_programma6">•	Twee jaar lang een coach (naast je manager) die je begeleidt tijdens trainingen en opdrachten bij de klant</string>
 
     <string name="title_yp_programma4">LEUK OM TE WETEN</string>
 
-    <string name="text_yp_programma6b">• Meer dan 150 Young Professionals zijn je afgelopen jaar voorgegaan\n• Veel terugkomdagen samen met andere Young Professionals\n• Tijdens het programma ga je al aan de slag bij klanten</string>
+    <string name="text_yp_programma6b">• Meer dan 150 Young Professionals zijn je afgelopen jaar voorgegaan\n• Veel terugkomdagen samen met andere Young Professionals\n• Tijdens het programma ga je al aan de slag bij klanten\n\n\<i>\"Stay hungry, stay foolish!\"</i></string>
 
     <string name="yp_vacatures">YOUNG PROFESSIONAL VACATURES</string>
 
