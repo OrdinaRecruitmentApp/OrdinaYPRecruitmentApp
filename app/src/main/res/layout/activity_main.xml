@@ -15,29 +15,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ordina_logo1"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ordina_logo"/>
 
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/waarom_ordina_kiezen"
         android:id="@+id/button_waarom_ordina"
-        android:layout_marginTop="56pt"
         android:onClick="startWaaromOrdinaActivity"
         android:textColor="#FFFFFF"
-        android:layout_weight="40"
-        android:minWidth="280dp"
-        android:maxWidth="280dp"
         android:fontFamily="Arial"
         android:background="@drawable/button_ordina_orange"
-        android:layout_below="@+id/textView"
+        android:layout_below="@id/ordina_logo"
+        android:layout_marginTop="6pt"
         android:layout_alignLeft="@+id/button_wat_doet_ordina"
-        android:layout_alignStart="@+id/button_wat_doet_ordina" />
+        android:layout_alignStart="@+id/button_wat_doet_ordina"/>
 
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#FFFFFF"
         android:background="@drawable/button_ordina_orange"
@@ -48,8 +46,6 @@
         android:onClick="startWatDoetOrdinaActivity"
         android:layout_below="@+id/button_waarom_ordina"
         android:layout_centerHorizontal="true"
-        android:minWidth="280dp"
-        android:maxWidth="280dp"
         android:fontFamily="Arial" />
 
     <Button
@@ -60,17 +56,15 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="6pt"
         android:layout_weight="20"
-        android:minWidth="280dp"
-        android:maxWidth="280dp"
         android:background="@drawable/button_ordina_orange"
         android:textColor="#FFFFFF"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="Arial" />
 
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="#FFFFFF"
         android:background="@drawable/button_ordina_orange"
@@ -81,8 +75,6 @@
         android:onClick="startFaceBookBrowserActivity"
         android:layout_below="@+id/button_young_professional_programma"
         android:layout_centerHorizontal="true"
-        android:minWidth="280dp"
-        android:maxWidth = "280dp"
         android:fontFamily="Arial" />
 
 </RelativeLayout>

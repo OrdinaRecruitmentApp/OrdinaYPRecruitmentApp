@@ -84,7 +84,7 @@ public class MainActivity extends ActionBarActivity {
 
 
     public void startFaceBookBrowserActivity(View view) {
-        Uri uri = Uri.parse("https://www.facebook.com/werkenbijordina/events?key=events");
+        Uri uri = Uri.parse("https://m.facebook.com/werkenbijordina?v=events");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
