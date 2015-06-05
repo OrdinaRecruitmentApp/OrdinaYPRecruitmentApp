@@ -102,9 +102,7 @@
     <string name="text_afdelingen_technisch_testing1">135 medewerkers &amp; 25 Young Professionals></string>
     <string name="text_afdelingen_technisch_testing2">Rabobank, ING, SNS, NS, Prorail, Ministerie van Algemene Zaken, UWV</string>
     <string name="text_afdelingen_technisch_testing3">Certified Scrum Master, Behaviour Driven Development, ISTQB Advanced, Java voor Testers, Cucumber/Selenium/Fitnesse</string>
-    <string name="text_afdelingen_technisch_testing4">Agile/DevOps, Testautomatisering, Security, Mobile, Ontwikkeling T-profiel door
-gerichte training
-</string>
+    <string name="text_afdelingen_technisch_testing4">Agile/DevOps, Testautomatisering, Security, Mobile, Ontwikkeling T-profiel door gerichte training</string>
 
     <string name="title_afdelingen_technisch_ops_engineer">OPS-ENGINEER</string>
     <string name="text_afdelingen_technisch_ops1">SQL, Shell-scripting en Python, Puppet, Tomcat</string>
