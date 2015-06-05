@@ -7,7 +7,7 @@
     android:paddingRight="0dp"
     android:paddingTop="0dp"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:background="#E98300"
+    android:background="@drawable/waarom_ordina_background"
     android:layout_above="@+id/footer">
 
     <LinearLayout
