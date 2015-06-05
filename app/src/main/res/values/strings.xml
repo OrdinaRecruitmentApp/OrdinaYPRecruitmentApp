@@ -11,12 +11,8 @@
     <string name="title_about_icon">About</string>
     <string name="title_activity_about">OVER DEZE APP</string>
     <string name="text_about_over1">OVER</string>
-    <string name="text_about_over2">Deze app is gemaakt door Ordina Young Professionals.</string>
-    <string name="text_about_info">Vanuit een praktijkopdracht hebben Ordina Young Professionals van Requirements,
-        Java en Testing gezamenlijk deze app gemaakt voor Recruitment.
-        De app is dankzij Scrum en hard werken in drie weken ontwikkeld door twee teams die fysiek waren gescheiden van elkaar.
-        Het hoofddoel van de app is om potentiële Young Professionals op een prettige manier te informeren, interesseren en inspireren voor de carrièremogelijkheden bij Ordina.
-    </string>
+    <string name="text_about_over2">Deze app is ontwikkeld door Ordina Young Professionals. Het hoofddoel van de app is om potentiële Young Professionals en studenten op een prettige manier te informeren, interesseren en inspireren over carrièremogelijkheden bij Ordina.</string>
+    <string name="text_about_info">Vanuit een praktijkopdracht hebben Ordina Young Professionals van Requirements, Java en Testing, tijdens hun Young Professional Programma, deze app gemaakt voor de afdeling Recruitment. In één maand, vier sprints en met ontzettend hard werken is deze app opgeleverd.</string>
     <string name="text_about_dank">Met dank aan: Lotte van den Berg, Annoushka Presentacion, Mark de Munnik,
         Mohammed Jalal Mekmassi, Alwin Tan, Aziz Arig, Mark Mulder, Sinan Ozdil, Ahmed Mohamed,
         Tjeerdjan Nieuwenhuis, Rene Berghuis, Sergio Taytelbaum, Marloes van Dongen, Annette Hoving,
@@ -39,8 +35,8 @@
     <string name="title_functie_java_software_engineer">JAVA SOFTWARE ENGINEER</string>
 
     <string name="text_alwin_tan">“Ik heb Bewegingswetenschappen gestudeerd aan de Vrije Universiteit in Amsterdam.
-        Na mijn studie was het moeilijk om een baan te vinden in die sector. Ik heb besloten om mij open te stellen voor alle mogelijkheden.
-        Tijdens een bezoek op de carrièrebeurs kwam ik bij de stand van Ordina terecht.
+        Na mijn studie was het moeilijk om een baan te vinden in die sector en heb besloten om mij open te stellen voor  andere mogelijkheden.
+        Tijdens een bezoek aan de Carrièrebeurs kwam ik bij de stand van Ordina terecht.
         Ik had het gevoel dat Ordina openstond voor mensen die een start willen maken in de IT-wereld, waarbij een IT-opleiding geen must was.
         Die instelling en de mogelijkheden om jezelf te ontwikkelen, waren voor mij belangrijke argumenten om bij Ordina een start te maken in de IT-wereld.“
     </string>
@@ -50,8 +46,9 @@
     <string name="text_mark_de_munnik">“De sfeer binnen Ordina zou ik typeren als warm, informeel en relaxed. Je krijgt als Young Professional veel ruimte om jezelf te ontwikkelen.
         Dankzij het uitgebreide opleidingsprogramma kun je in korte tijd enorm veel leren. Door de goede mix van deze factoren heb ik gekozen voor Ordina.”
     </string>
-    <string name="text_jalal_mekmassi">“Ordina is een warm bedrijf en er heerst een ontspannen sfeer. Het is voor Young Professionals, naast een uitgebreid opleidingsprogramma,
-        erg belangrijk mensen kunnen ontmoeten en ideeën uit te wisselen. Dit wordt volledig ondersteund door Ordina en is daarom een leuk bedrijf om voor te mogen werken.“
+    <string name="text_jalal_mekmassi">“Ordina is een warm bedrijf waar een ontspannen sfeer heerst.
+        Het is voor Young Professionals, naast een uitgebreid opleidingsprogramma, erg belangrijk om mensen te kunnen ontmoeten en ideeën uit te wisselen.
+        Dit wordt volledig ondersteund door Ordina en is daarom een leuk bedrijf om voor te mogen werken.“
     </string>
     <string name="text_sabrina_wilbrink_podesta">“Met een achtergrond als Dierwetenschapper en meerdere jaren ervaring als onderzoeker en kwaliteitsmanager,
         lijkt Ordina misschien niet direct een logische vervolgstap. Ik was echter op zoek naar een baan met uitdaging,
@@ -60,11 +57,11 @@
     </string>
     <string name="text_tjeerdjan_nieuwenhuis">“Ordina is een bedrijf dat ook kansen biedt aan mensen die geen traditionele IT-achtergrond hebben.
         Met mijn studie Geschiedenis was het lastig een baan te vinden.
-        Met Ordina heb ik een werkgever gevonden die mij de tijd en ruimte geeft om me te herscholen in de IT-wereld.“</string>
+        Met Ordina heb ik een werkgever gevonden die mij de tijd en ruimte geeft om te omscholen in de IT-wereld.“</string>
     <string name="text_sergio_taytelbaum">“Ik ben afgestudeerd in de Bewegingswetenschappen aan de Vrije Universiteit in Amsterdam.
-        Tijdens de carrièrebeurs viel de open, informele en professionele cultuur van Ordina mij meteen op.
+        Tijdens de Carrièrebeurs viel de open, informele en professionele cultuur van Ordina mij meteen op.
         De ontwikkelingskansen bij Ordina in de vorm van trainingen en cursussen zijn ideaal voor een ieder die zich wilt blijven ontwikkelen binnen de ICT.
-        Hierdoor was de keuze snel gemaakt en wist ik dat ik bij Ordina moest zijn om persoonlijke doelen te behalen.“</string>
+        Hierdoor was de keuze snel gemaakt en wist ik dat ik bij Ordina moest zijn om mijn persoonlijke doelen te behalen.“</string>
 
 
     <string name="app_name">Ordina Young Professionals</string>
@@ -116,8 +113,8 @@
     <string name="text_afdelingen_niet_technisch_pmo4">Certificering: PMO Foundation, Prince2, ITIL</string>
 
     //strings projecten
-    <string name="text_projecten_prorail">•	Meerdere competities gewonnen, waaronder \‘Tijdig Roestrijden\’ en \‘Digitaal schouwen\’ \n \n•Java / HTML5 / GEO technologie / Beeldherkenning \n \n• Nieuwbouw- en beheercontract \n \n• Samen het spoor veiliger maken!</string>
-    <string name="text_projecten_politie">•	Al 18 jaar samenwerking \n \n• Aanvalsprogramma IV Politie \n \n• Succesvol Java-beheer \n \n• Business Intelligence / Linked data / SAP</string>
+    <string name="text_projecten_prorail">• Realisatie van de Java/HTML5 applicatie ‘Tijdig Roestrijden’\n \n• Bouw van een innovatief Computer Vision systeem ‘Digitaal Schouwen’. Realisatie met OpenCV (beeldherkenning en videoverwerking) in combinatie met moderne JavaFX- en FME Geo-technologie\n \n• Beeldherkenning\n \n• Samen het spoor veiliger maken!</string>
+    <string name="text_projecten_politie">•	Al 18 jaar samenwerking \n \n• Aanvalsprogramma IV Politie \n \n• Succesvol Java-beheer \n \n• Business Intelligence/Linked data/SAP</string>
     <string name="text_projecten_eneco">• Google Glass\n\n• SMART technologies, Android, Mirror API, GDK, JSON, Beeldherkenning, Stemcommando’s\n\n•	Klantgegevens en lokale energieprojecten realtime oproepen\n\n• Energieslurpende apparatuur bij klanten thuis in kaart brengen\n\n• Betere advisering van klanten door completere informatie</string>
     <string name="text_projecten_mindef">• Livegang Marine schepen\n\n• SAP\n\n• Procesintegratie\n\n• Snellere bedrijfsvoering met één systeem\n\n• Eerste luchtverdedigings- en commandofregat dat over is op dit computersysteem</string>
     <string name="text_projecten_bavaria">• Bavaria Innovation Challenge &amp; Bavaria SAP beheer (al 12 jaar)\n\n• Impact is een veel efficiënter ingericht systeem voor de kroegbazen en de leverancier Bavaria met de Smart Meter voor de Biertank\n\n</string>
@@ -137,7 +134,7 @@
     <string name="title_activity_evenementen">EVENEMENTEN</string>
 
 
-    <string name="text_yp_programma6">•	Twee jaar lang een coach (naast je manager) die je begeleidt tijdens trainingen en opdrachten bij de klant</string>
+    <string name="text_yp_programma6">Twee jaar lang een coach (naast je manager) die je zal begeleiden tijdens trainingen en opdrachten bij de klant</string>
 
     <string name="title_yp_programma4">LEUK OM TE WETEN</string>
 
