@@ -16,7 +16,8 @@
         android:layout_height="wrap_content"
         android:src="@drawable/ordina_logo1"
         android:layout_centerHorizontal="true"
-        android:id="@+id/ordina_logo"/>
+        android:id="@+id/ordina_logo"
+        android:adjustViewBounds="true"/>
 
 
     <Button
@@ -28,8 +29,8 @@
         android:textColor="#FFFFFF"
         android:fontFamily="Arial"
         android:background="@drawable/button_ordina_orange"
-        android:layout_below="@id/ordina_logo"
         android:layout_marginTop="6pt"
+        android:layout_below="@id/ordina_logo"
         android:layout_alignLeft="@+id/button_wat_doet_ordina"
         android:layout_alignStart="@+id/button_wat_doet_ordina"/>
 

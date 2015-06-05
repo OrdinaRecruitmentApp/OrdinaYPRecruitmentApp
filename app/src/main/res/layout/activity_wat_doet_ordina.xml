@@ -10,37 +10,37 @@
     android:background="@drawable/claim_jouw_plek_running_man_480_800">
 
 
-
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_afdelingen"
-        android:id="@+id/button_afdelingen"
-        android:onClick="startAfdelingenActivity"
-        android:background="@drawable/button_ordina_orange"
-        android:minWidth="280dp"
-        android:textColor="#ffffff"
-        android:fontFamily="Arial"
-        android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/button_klanten"
-        android:layout_alignStart="@+id/button_klanten"
-        android:layout_marginTop="200dp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_klanten"
-        android:id="@+id/button_klanten"
-        android:layout_marginTop="20dp"
-        android:onClick="startKlantenActivity"
-        android:layout_below="@+id/button_afdelingen"
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:layout_centerHorizontal="true"
-        android:minWidth="280dp"
-        android:fontFamily="Arial"
-        android:background="@drawable/button_ordina_orange"
-        android:textColor="#FFFFFF"/>
+        android:layout_centerVertical="true">
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_afdelingen"
+            android:id="@+id/button_afdelingen"
+            android:onClick="startAfdelingenActivity"
+            android:background="@drawable/button_ordina_orange"
+            android:textColor="#ffffff"
+            android:fontFamily="Arial"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/button_klanten"
+            android:layout_alignStart="@+id/button_klanten" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_klanten"
+            android:id="@+id/button_klanten"
+            android:layout_marginTop="20dp"
+            android:onClick="startKlantenActivity"
+            android:layout_below="@+id/button_afdelingen"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="Arial"
+            android:background="@drawable/button_ordina_orange"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
 
 </RelativeLayout>
