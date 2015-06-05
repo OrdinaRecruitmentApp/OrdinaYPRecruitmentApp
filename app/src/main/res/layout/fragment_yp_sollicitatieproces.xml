@@ -14,7 +14,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/sollicitatieprocesv5"
             android:adjustViewBounds="true"
-
+            android:layout_gravity="center_horizontal"
             />
 
 
